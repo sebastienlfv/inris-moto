@@ -1,0 +1,289 @@
+.first-section-detail-motoecole {
+  height: 350px;
+  display: flex; 
+  align-items: center;
+  background: rgb(40,27,89);
+  background: linear-gradient(90deg, rgba(40,27,89,1) 0%, rgba(193,0,88,1) 100%); 
+  font-family: 'Lexend';
+
+  .detail-motoecole-solo {
+    display: flex; 
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+    .container-moto-ecole-solo {
+      display: flex; 
+      flex-direction: column; 
+      margin-left: 80px;
+
+      div {
+        border-radius: 50px;
+      }
+  
+      h1 {
+        color: #fff; 
+        font-weight: bold; 
+        font-size: 40px; 
+        line-height: 50px; 
+        width: 60%;
+      }
+    }
+  }
+}
+
+.second-section-detail-motoecole {
+  width: 80%;
+  margin: auto;
+  font-family: 'Lexend';
+  padding-bottom: 50px;
+
+  h1 {
+    text-align: center; 
+    color: #1f3149; 
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  a {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 50px;
+    cursor: pointer;
+  }
+
+  .container-details-motoecole {
+    display: flex; 
+    width: 70%; 
+    justify-content: space-between; 
+    margin-top: 40px;
+
+    &-left {
+      width: 100%;
+
+      .first-p {
+        color: #1f3149; 
+        font-size: 18px; 
+        font-weight: 600;
+
+        i {
+          margin-right: 17px;
+        }
+      }
+
+      .second-p {
+        color: #1f3149; 
+        font-size: 18px; 
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        i {
+          margin-right: 10px;
+        }
+      }
+
+      &-horaire {
+        margin-top: 10px; 
+        margin-left: 31px;
+
+        .day-details-motoecole {
+          display: flex; 
+          height: 30px;
+
+          .first-p {
+            color: #9aa6b7; 
+            font-size: 18px; 
+            width: 30%;
+          }
+
+          .second-p {
+            color: #1f3149; 
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    &-right {
+      width: 100%;
+
+      .first-p {
+        color: #1f3149; 
+        font-size: 18px; 
+        font-weight: 600;
+
+        i {
+          margin-right: 17px;
+        }
+      }
+
+      .second-p {
+        color: #1f3149; 
+        font-size: 18px; 
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        i {
+          margin-right: 10px;
+        }
+      }
+
+      &-horaire {
+        margin-top: 10px; 
+        margin-left: 31px;
+
+        .day-details-motoecole {
+          display: flex; 
+          height: 30px;
+
+          .first-p {
+            color: #9aa6b7; 
+            font-size: 18px; 
+            width: 30%;
+          }
+
+          .second-p {
+            color: #1f3149; 
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.three-section-detail-motoecole {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+
+  h1 {
+    width: 50%;
+    font-family: 'Lexend';
+    margin-top: 40px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .detail-formation-motoecole {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 100%;
+
+    .detail {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #eff2ff;
+      width: 350px;
+      height: 100px;
+      border-radius: 20px;
+      justify-content: center;
+
+      p {
+        font-family: 'Lexend';
+        font-size: 20px;
+      }
+
+      a {
+        font-family: 'Lexend';
+        font-size: 18px;
+        margin-top: 10px;
+        color: #c10058;
+      }
+    }
+  }
+}
+
+.four-section-detail-motoecole {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+
+  h1 {
+    width: 50%;
+    font-family: 'Lexend';
+    margin-top: 40px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .presentation-motoecole {
+    margin-top: 50px;
+
+    p {
+      margin-top: 20px;
+      line-height: 30px;
+      font-size: 18px;
+      font-family: 'Lexend';
+    }
+  }
+
+  a {
+    background-color: #00e5ac;
+    color: #fff;
+    font-weight: 600;
+    border: 3px solid #28C49D;
+    height: 60px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend';
+    margin-top: 40px;
+  }
+}
+
+.five-section-detail-motoecole {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+
+  h1 {
+    width: 50%;
+    font-family: 'Lexend';
+    margin-top: 40px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .container-financement-motoecole {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+
+    .financement-detail {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 150px;
+      }
+
+      p {
+        font-size: 14px;
+        font-family: 'Lexend';
+        margin-top: 40px;
+        line-height: 25px;
+        width: 90%;
+      }
+    }
+  }
+}

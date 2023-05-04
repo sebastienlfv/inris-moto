@@ -1,0 +1,1316 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.activ {
+  color: #6d6d6d !important;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("/client/src/font/Lexend-VariableFont_wght.ttf");
+}
+body {
+  overflow-y: scroll;
+  scrollbar-width: none; /* pour Firefox */
+  -ms-overflow-style: none; /* pour Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* pour Chrome, Safari, et Opera */
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1000;
+  border-bottom: 2px solid #c2075d;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
+}
+.header-container img {
+  cursor: pointer;
+  width: 150px;
+}
+.header-container nav {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.header-container nav div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.header-container nav div:hover i {
+  transition: 0.3s;
+  transform: rotate(90deg);
+  color: #000;
+}
+.header-container nav i {
+  color: #a6a7ab;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.header-container nav a {
+  font-family: "Lexend";
+  color: #000;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.header-container nav a:hover {
+  color: #6d6d6d;
+}
+.header-container .separator-container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.header-container .separator-container .separator {
+  background-color: #e8eaed;
+  width: 1px;
+  height: 45px;
+}
+.header-container .separator-container button {
+  padding: 15px 40px;
+  font-family: "Lexend";
+  background-color: #00e5ac;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header-container .separator-container button:hover {
+  background-color: #28C49D;
+}
+
+main {
+  padding-top: 112px;
+}
+main .first-section-home {
+  background-image: url("/client/src/img/motard-route.png");
+  background-size: cover;
+  padding-bottom: 235px;
+}
+main .first-section-home .container {
+  padding: 100px;
+  width: 40%;
+  font-family: "Lexend";
+}
+main .first-section-home .container h1 {
+  color: #fff;
+  font-size: 70px;
+}
+main .first-section-home .container p {
+  color: #fff;
+  font-size: 50px;
+  margin-top: 40px;
+}
+main .first-section-home .container p span {
+  color: #00e5ac;
+  font-size: 50px;
+}
+main .first-section-home .container button {
+  padding: 15px 40px;
+  font-family: "Lexend";
+  background-color: #00e5ac;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+main .first-section-home .container button:hover {
+  background-color: #28C49D;
+}
+main .first-section-home .case-container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .first-section-home .case-container .caseActiv {
+  background-color: #00e5ac !important;
+}
+main .first-section-home .case-container .case {
+  width: 8px;
+  height: 8px;
+  background-color: #a6a7ab;
+  cursor: pointer;
+}
+main .first-section-home .case-container i {
+  color: #a6a7ab;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .first-section-home .case-container i:hover {
+  color: #00e5ac;
+}
+main .second-section-home .services-write {
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+main .second-section-home .services-write .top-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a7a7a7;
+  font-family: "Lexend";
+  gap: 10px;
+  font-size: 16px;
+}
+main .second-section-home .services-write .top-p span {
+  width: 3px;
+  height: 15px;
+  background-color: #28C49D;
+  transform: rotate(10deg);
+}
+main .second-section-home .services-write h1 {
+  margin-top: 20px;
+  color: #3d3d3d;
+  font-size: 40px;
+  font-family: "Lexend";
+}
+main .second-section-home .services-write .bottom-p {
+  font-size: 18px;
+  color: #74757b;
+  font-family: "Lexend";
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+}
+main .second-section-home .service-details {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+main .second-section-home .service-details .details {
+  width: 500px;
+  height: 600px;
+  box-shadow: #eeeeee 0px 10px 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+main .second-section-home .service-details .details:hover img {
+  filter: brightness(0.4);
+}
+main .second-section-home .service-details .details:hover .readmore {
+  background-color: #c2075d;
+}
+main .second-section-home .service-details .details:hover .readmore p {
+  color: #fff;
+}
+main .second-section-home .service-details .details .info-details:hover {
+  background-size: 130%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+main .second-section-home .service-details .details .info-details {
+  height: 560px;
+  background-size: 115%;
+  color: #fff;
+  font-family: "Lexend";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+main .second-section-home .service-details .details .info-details img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+main .second-section-home .service-details .details .info-details h2 {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .second-section-home .service-details .details .info-details h2:hover {
+  color: #c2075d;
+  width: 80%;
+}
+main .second-section-home .service-details .details .info-details p {
+  margin-top: 20px;
+  font-size: 16px;
+  width: 80%;
+}
+main .second-section-home .service-details .details .info-details div {
+  position: absolute;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+  width: 100%;
+}
+main .second-section-home .service-details .details .readmore {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 40px;
+  justify-content: space-around;
+  transition: 0.3s;
+}
+main .second-section-home .service-details .details .readmore .container-fleche {
+  display: flex;
+}
+main .second-section-home .service-details .details .readmore .container-fleche i {
+  color: #000;
+  font-size: 55px;
+  width: 15%;
+  color: #d8d8d8;
+}
+main .second-section-home .service-details .details .readmore p {
+  font-family: "Lexend";
+}
+main .three-section-home {
+  background-image: url("/client/src/img/motard-route.png");
+}
+main .three-section-home .container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+main .three-section-home .container .top {
+  height: 500px;
+  backdrop-filter: blur(5px);
+  width: 100%;
+}
+main .three-section-home .container .top .top-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  color: #fff;
+  font-family: "Lexend";
+  margin-right: 300px;
+}
+main .three-section-home .container .top .top-container .details {
+  width: 60%;
+}
+main .three-section-home .container .top .top-container .since {
+  margin-bottom: 40px;
+  width: 60%;
+}
+main .three-section-home .container .top .top-container .chiffre {
+  margin-top: 40px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+main .three-section-home .container .top .top-container .chiffre p:nth-child(1) {
+  font-size: 40px;
+  font-weight: bold;
+}
+main .three-section-home .container .top .top-container .chiffre i {
+  font-size: 55px;
+  margin-right: 40px;
+  color: #c2075d;
+}
+main .three-section-home .container .top .since span {
+  color: #fff;
+  font-family: "Lexend";
+  font-size: 18px;
+}
+main .three-section-home .container .top .since p {
+  color: #c2075d;
+  font-family: "Lexend";
+  font-size: 40px;
+}
+main .three-section-home .container .bottom {
+  height: 400px;
+  background-color: #dbd8d8;
+  display: flex;
+}
+main .three-section-home .container .bottom .left {
+  width: 50%;
+  border-right: 1px solid #b4b4b4;
+  font-family: "Lexend";
+  padding: 50px;
+}
+main .three-section-home .container .bottom .left i {
+  color: #c2075d;
+  font-size: 55px;
+}
+main .three-section-home .container .bottom .left h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+main .three-section-home .container .bottom .left p {
+  color: #7d7a78;
+  font-weight: 300;
+  width: 450px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+main .three-section-home .container .bottom .left span {
+  color: #3d3d3d;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .three-section-home .container .bottom .left span:hover {
+  color: #c2075d;
+}
+main .three-section-home .container .bottom .right {
+  width: 50%;
+  border-left: 1px solid #b4b4b4;
+  font-family: "Lexend";
+  padding: 50px;
+}
+main .three-section-home .container .bottom .right i {
+  color: #c2075d;
+  font-size: 55px;
+}
+main .three-section-home .container .bottom .right h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+main .three-section-home .container .bottom .right p {
+  color: #7d7a78;
+  font-weight: 300;
+  width: 450px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+main .three-section-home .container .bottom .right span {
+  color: #3d3d3d;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .three-section-home .container .bottom .right span:hover {
+  color: #c2075d;
+}
+main .four-section-home .gallery-write {
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+main .four-section-home .gallery-write .top-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a7a7a7;
+  font-family: "Lexend";
+  gap: 10px;
+  font-size: 16px;
+}
+main .four-section-home .gallery-write .top-p span {
+  width: 3px;
+  height: 15px;
+  background-color: #28C49D;
+  transform: rotate(10deg);
+}
+main .four-section-home .gallery-write h1 {
+  margin-top: 20px;
+  color: #3d3d3d;
+  font-size: 40px;
+  font-family: "Lexend";
+}
+main .four-section-home .gallery-write .bottom-p {
+  font-size: 18px;
+  color: #74757b;
+  font-family: "Lexend";
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+}
+main .four-section-home .gallery-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+main .four-section-home .gallery-details div {
+  display: flex;
+  justify-content: space-between;
+}
+main .four-section-home .gallery-details img {
+  width: 490px;
+  object-fit: cover;
+  transition: 0.3s;
+  cursor: auto;
+}
+main .four-section-home .gallery-details img:hover {
+  filter: brightness(0.4);
+}
+main .five-section-home {
+  margin-bottom: 50px;
+}
+main .five-section-home .blog-write {
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+main .five-section-home .blog-write .top-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a7a7a7;
+  font-family: "Lexend";
+  gap: 10px;
+  font-size: 16px;
+}
+main .five-section-home .blog-write .top-p span {
+  width: 3px;
+  height: 15px;
+  background-color: #28C49D;
+  transform: rotate(10deg);
+}
+main .five-section-home .blog-write h1 {
+  margin-top: 20px;
+  color: #3d3d3d;
+  font-size: 40px;
+  font-family: "Lexend";
+}
+main .five-section-home .blog-write .bottom-p {
+  font-size: 18px;
+  color: #74757b;
+  font-family: "Lexend";
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+}
+main .five-section-home .blog-details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+main .five-section-home .blog-details .blog-container-details {
+  position: relative;
+  width: 400px;
+  font-family: "Lexend";
+  cursor: pointer;
+}
+main .five-section-home .blog-details .blog-container-details .blog-type {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+main .five-section-home .blog-details .blog-container-details .blog-type p {
+  background-color: #00e5ac;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+main .five-section-home .blog-details .blog-container-details .blog-type-conduite {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+main .five-section-home .blog-details .blog-container-details .blog-type-conduite p {
+  background-color: #c2075d;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+main .five-section-home .blog-details .blog-container-details .blog-type-administratif {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+main .five-section-home .blog-details .blog-container-details .blog-type-administratif p {
+  background-color: #1f3149;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+main .five-section-home .blog-details .blog-container-details .blog-type-financement {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+main .five-section-home .blog-details .blog-container-details .blog-type-financement p {
+  background-color: #9AA6B7;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+main .five-section-home .blog-details .blog-container-details img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+main .five-section-home .blog-details .blog-container-details img:hover {
+  filter: brightness(0.4);
+}
+main .five-section-home .blog-details .blog-container-details .date {
+  color: #7d7a78;
+  margin-top: 10px;
+  font-size: 18px;
+}
+main .five-section-home .blog-details .blog-container-details .title {
+  margin-top: 10px;
+  font-size: 18px;
+}
+main .five-section-home .blog-details .blog-container-details .readmore {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+main .five-section-home .blog-details .blog-container-details .readmore i {
+  margin-right: 10px;
+  font-size: 15px;
+  color: #c2075d;
+}
+main .six-section-home {
+  background-color: #f4f1f1;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+main .six-section-home .container {
+  width: 80%;
+  margin: auto;
+}
+main .six-section-home .price-write {
+  margin: auto;
+  text-align: left;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .six-section-home .price-write .arrow {
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+}
+main .six-section-home .price-write .arrow i {
+  background-color: #fff;
+  padding: 10px 15px;
+  color: #c4c4c4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .six-section-home .price-write .arrow i:hover {
+  background-color: #28C49D;
+  color: #fff;
+}
+main .six-section-home .price-write .top-p {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #a7a7a7;
+  font-family: "Lexend";
+  gap: 10px;
+  font-size: 16px;
+}
+main .six-section-home .price-write .top-p span {
+  width: 3px;
+  height: 15px;
+  background-color: #28C49D;
+  transform: rotate(10deg);
+}
+main .six-section-home .price-write h1 {
+  margin-top: 20px;
+  color: #3d3d3d;
+  font-size: 40px;
+  font-family: "Lexend";
+}
+main .six-section-home .container-details-price {
+  padding: 10px;
+  background-color: #fff;
+  width: 47%;
+}
+main .six-section-home .price-details {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+main .six-section-home .price-details .detail-container {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
+  background-size: cover;
+  height: 400px;
+}
+main .six-section-home .price-details .detail-container .price {
+  color: #c2075d;
+  background-color: #fff;
+  height: 50px;
+  width: 110px;
+  display: flex;
+  padding: 5px;
+  font-family: "Lexend";
+  font-size: 16px;
+  position: relative;
+}
+main .six-section-home .price-details .detail-container .price p:nth-child(2) {
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+main .six-section-home .price-details .detail-container .detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  backdrop-filter: brightness(0.2);
+  color: #fff;
+  font-family: "Lexend";
+  width: 50%;
+}
+main .six-section-home .price-details .detail-container .detail .separator {
+  background-color: #979797;
+  height: 1px;
+  margin-top: 20px;
+}
+main .six-section-home .price-details .detail-container .detail button {
+  margin-top: 50px;
+  padding: 20px;
+  font-family: "Lexend";
+  color: #000;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .six-section-home .price-details .detail-container .detail button:hover {
+  background-color: #00e5ac;
+  color: #fff;
+}
+main .six-section-home .price-details .detail-container .detail .p-detail {
+  color: #c4c4c4;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+main .six-section-home .price-details .detail-container .detail div {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+main .six-section-home .price-details .detail-container .detail div i {
+  font-size: 30px;
+  margin-right: 40px;
+}
+main .six-section-home .price-details .detail-container .detail div div {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+main .six-section-home .price-details .detail-container .detail div div p {
+  font-size: 18px;
+}
+main .six-section-home .price-details .detail-container .detail div div p:nth-child(2) {
+  margin-top: 10px;
+}
+
+.show {
+  display: flex !important;
+}
+
+.btn-filter {
+  cursor: pointer !important;
+}
+
+.moto-ecole {
+  display: none;
+}
+
+.first-section-motoecole {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/motard-route.png");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.button-ensavoirplus-motoecole {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  text-align: center;
+}
+.button-ensavoirplus-motoecole a {
+  width: 160px;
+  background-color: #c10058;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.button-ensavoirplus-motoecole a:hover {
+  background-color: #a10049;
+}
+
+.red-banner {
+  background-color: #c10058;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-family: "Lexend";
+}
+.red-banner h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.red-banner h1 img {
+  width: 30px;
+  margin-right: 15px;
+}
+.red-banner .list-moto-ecole {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.red-banner .list-moto-ecole span {
+  cursor: pointer;
+  background-color: #fff;
+  color: #c10058;
+  border-radius: 50px;
+  padding: 10px 40px;
+}
+
+.second-section-motoecole {
+  background-color: #eff2ff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 53vh;
+  align-items: center;
+  justify-content: center;
+}
+.second-section-motoecole .auto-ecole-inris-details {
+  width: 80%;
+  margin: auto;
+  font-family: "Lexend";
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #acacac;
+  margin-top: 20px;
+}
+.second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-left {
+  width: 53%;
+}
+.second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-left-1 {
+  padding: 60px 20px 20px 40px;
+  width: 90%;
+}
+.second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-left-1 h1 {
+  color: #c2075d;
+  font-weight: bold;
+}
+.second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-left-1 p {
+  font-size: 18px;
+  color: #000;
+  margin-top: 20px;
+}
+.second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-left-1 div {
+  display: flex;
+}
+.second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-right-border {
+  border-left: 1px solid black;
+  height: 90%;
+  display: flex;
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.second-section-motoecole .auto-ecole-inris-details .formation-details-moto-container {
+  padding: 20px 20px 20px 40px;
+  width: 100%;
+}
+.second-section-motoecole .auto-ecole-inris-details .formation-details-moto-container h3 {
+  color: #c2075d;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px;
+}
+.second-section-motoecole .auto-ecole-inris-details .formation-details-moto-container div {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.second-section-motoecole .auto-ecole-inris-details .formation-details-moto-container .formation-details-p {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-section-about {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/motard-route.png");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.second-section-about .contain-about {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section-about .contain-about img {
+  width: 500px;
+}
+.second-section-about .contain-about .detail {
+  width: 50%;
+}
+.second-section-about .contain-about .detail h2 {
+  font-family: "Lexend";
+  font-size: 30px;
+}
+.second-section-about .contain-about .detail p {
+  color: #74757b;
+  font-family: "Lexend";
+  margin-top: 40px;
+  line-height: 30px;
+}
+.second-section-about .contain-about .detail-formation p {
+  line-height: normal;
+  margin-top: 10px;
+}
+.second-section-about .contain-about .detail-formation p span {
+  font-weight: bold;
+  color: #c10058;
+}
+.second-section-about .picto {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.second-section-about .picto div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 15%;
+}
+.second-section-about .picto div img {
+  width: 125px;
+}
+.second-section-about .picto div p {
+  color: #000;
+  font-family: "Lexend";
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.first-section-blog {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/motard-route.png");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-blog {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.second-section-blog .contain-blog {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.second-section-blog .contain-blog .blog-container-details {
+  position: relative;
+  width: 400px;
+  font-family: "Lexend";
+  cursor: pointer;
+  background-color: #fff;
+}
+.second-section-blog .contain-blog .blog-container-details .blog-type {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.second-section-blog .contain-blog .blog-container-details .blog-type p {
+  background-color: #00e5ac;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+.second-section-blog .contain-blog .blog-container-details .blog-type-conduite {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.second-section-blog .contain-blog .blog-container-details .blog-type-conduite p {
+  background-color: #c2075d;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+.second-section-blog .contain-blog .blog-container-details .blog-type-administratif {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.second-section-blog .contain-blog .blog-container-details .blog-type-administratif p {
+  background-color: #1f3149;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+.second-section-blog .contain-blog .blog-container-details .blog-type-financement {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.second-section-blog .contain-blog .blog-container-details .blog-type-financement p {
+  background-color: #9AA6B7;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+.second-section-blog .contain-blog .blog-container-details img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.second-section-blog .contain-blog .blog-container-details img:hover {
+  filter: brightness(0.4);
+}
+.second-section-blog .contain-blog .blog-container-details .date {
+  color: #7d7a78;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.second-section-blog .contain-blog .blog-container-details .title {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.second-section-blog .contain-blog .blog-container-details .readmore {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.second-section-blog .contain-blog .blog-container-details .readmore i {
+  margin-right: 10px;
+  font-size: 15px;
+  color: #c2075d;
+}
+
+.first-section-detail-motoecole {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  background: rgb(40, 27, 89);
+  background: linear-gradient(90deg, rgb(40, 27, 89) 0%, rgb(193, 0, 88) 100%);
+  font-family: "Lexend";
+}
+.first-section-detail-motoecole .detail-motoecole-solo {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.first-section-detail-motoecole .detail-motoecole-solo .container-moto-ecole-solo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.first-section-detail-motoecole .detail-motoecole-solo .container-moto-ecole-solo div {
+  border-radius: 50px;
+}
+.first-section-detail-motoecole .detail-motoecole-solo .container-moto-ecole-solo h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  width: 60%;
+}
+
+.second-section-detail-motoecole {
+  width: 80%;
+  margin: auto;
+  font-family: "Lexend";
+  padding-bottom: 50px;
+}
+.second-section-detail-motoecole h1 {
+  text-align: center;
+  color: #1f3149;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.second-section-detail-motoecole a {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.second-section-detail-motoecole .container-details-motoecole {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.second-section-detail-motoecole .container-details-motoecole-left {
+  width: 100%;
+}
+.second-section-detail-motoecole .container-details-motoecole-left .first-p {
+  color: #1f3149;
+  font-size: 18px;
+  font-weight: 600;
+}
+.second-section-detail-motoecole .container-details-motoecole-left .first-p i {
+  margin-right: 17px;
+}
+.second-section-detail-motoecole .container-details-motoecole-left .second-p {
+  color: #1f3149;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.second-section-detail-motoecole .container-details-motoecole-left .second-p i {
+  margin-right: 10px;
+}
+.second-section-detail-motoecole .container-details-motoecole-left-horaire {
+  margin-top: 10px;
+  margin-left: 31px;
+}
+.second-section-detail-motoecole .container-details-motoecole-left-horaire .day-details-motoecole {
+  display: flex;
+  height: 30px;
+}
+.second-section-detail-motoecole .container-details-motoecole-left-horaire .day-details-motoecole .first-p {
+  color: #9aa6b7;
+  font-size: 18px;
+  width: 30%;
+}
+.second-section-detail-motoecole .container-details-motoecole-left-horaire .day-details-motoecole .second-p {
+  color: #1f3149;
+  font-size: 18px;
+}
+.second-section-detail-motoecole .container-details-motoecole-right {
+  width: 100%;
+}
+.second-section-detail-motoecole .container-details-motoecole-right .first-p {
+  color: #1f3149;
+  font-size: 18px;
+  font-weight: 600;
+}
+.second-section-detail-motoecole .container-details-motoecole-right .first-p i {
+  margin-right: 17px;
+}
+.second-section-detail-motoecole .container-details-motoecole-right .second-p {
+  color: #1f3149;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.second-section-detail-motoecole .container-details-motoecole-right .second-p i {
+  margin-right: 10px;
+}
+.second-section-detail-motoecole .container-details-motoecole-right-horaire {
+  margin-top: 10px;
+  margin-left: 31px;
+}
+.second-section-detail-motoecole .container-details-motoecole-right-horaire .day-details-motoecole {
+  display: flex;
+  height: 30px;
+}
+.second-section-detail-motoecole .container-details-motoecole-right-horaire .day-details-motoecole .first-p {
+  color: #9aa6b7;
+  font-size: 18px;
+  width: 30%;
+}
+.second-section-detail-motoecole .container-details-motoecole-right-horaire .day-details-motoecole .second-p {
+  color: #1f3149;
+  font-size: 18px;
+}
+
+.three-section-detail-motoecole {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.three-section-detail-motoecole h1 {
+  width: 50%;
+  font-family: "Lexend";
+  margin-top: 40px;
+  line-height: 45px;
+  text-align: center;
+}
+.three-section-detail-motoecole .detail-formation-motoecole {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 100%;
+}
+.three-section-detail-motoecole .detail-formation-motoecole .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eff2ff;
+  width: 350px;
+  height: 100px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.three-section-detail-motoecole .detail-formation-motoecole .detail p {
+  font-family: "Lexend";
+  font-size: 20px;
+}
+.three-section-detail-motoecole .detail-formation-motoecole .detail a {
+  font-family: "Lexend";
+  font-size: 18px;
+  margin-top: 10px;
+  color: #c10058;
+}
+
+.four-section-detail-motoecole {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.four-section-detail-motoecole h1 {
+  width: 50%;
+  font-family: "Lexend";
+  margin-top: 40px;
+  line-height: 45px;
+  text-align: center;
+}
+.four-section-detail-motoecole .presentation-motoecole {
+  margin-top: 50px;
+}
+.four-section-detail-motoecole .presentation-motoecole p {
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "Lexend";
+}
+.four-section-detail-motoecole a {
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: 600;
+  border: 3px solid #28C49D;
+  height: 60px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend";
+  margin-top: 40px;
+}
+
+.five-section-detail-motoecole {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.five-section-detail-motoecole h1 {
+  width: 50%;
+  font-family: "Lexend";
+  margin-top: 40px;
+  line-height: 45px;
+  text-align: center;
+}
+.five-section-detail-motoecole .container-financement-motoecole {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 100px;
+}
+.five-section-detail-motoecole .container-financement-motoecole .financement-detail {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.five-section-detail-motoecole .container-financement-motoecole .financement-detail img {
+  width: 150px;
+}
+.five-section-detail-motoecole .container-financement-motoecole .financement-detail p {
+  font-size: 14px;
+  font-family: "Lexend";
+  margin-top: 40px;
+  line-height: 25px;
+  width: 90%;
+}
+
+/*# sourceMappingURL=style.css.map */

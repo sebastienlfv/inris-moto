@@ -1,0 +1,161 @@
+.show {
+  display: flex !important;
+}
+
+.btn-filter {
+  cursor: pointer !important;
+}
+	
+.moto-ecole {
+	display: none;
+}
+
+.first-section-motoecole {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lexend';
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url('/client/src/img/motard-route.png');
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.button-ensavoirplus-motoecole {
+  display: flex; 
+  align-items: center; 
+  margin-right: 50px;
+  text-align: center;
+
+  a {
+    width: 160px; 
+    background-color: #c10058; 
+    border: none; padding: 15px; 
+    color: #fff; 
+    font-weight: bold; 
+    border-radius: 50px;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #a10049; 
+    }
+  }
+}
+
+.red-banner {
+  background-color: #c10058;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-family: 'Lexend';
+
+  h1 {
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 25px; 
+    text-align: center; 
+    align-items: center; 
+    display: flex; 
+    justify-content: center;
+
+    img {
+      width: 30px; 
+      margin-right: 15px;
+    }
+  }
+
+  .list-moto-ecole {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px; 
+    margin-bottom: 50px; 
+    margin-top: 20px;
+
+    span {
+      cursor: pointer; 
+      background-color: #fff;
+      color: #c10058; 
+      border-radius: 50px; 
+      padding: 10px 40px;
+    }
+  }
+}
+
+.second-section-motoecole {
+  background-color: #eff2ff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 53vh;
+  align-items: center;
+  justify-content: center;
+
+  .auto-ecole-inris-details {
+    width: 80%;
+    margin: auto;
+    font-family: 'Lexend';
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #acacac;
+    margin-top: 20px;
+
+    .auto-ecole-inris-details-left {
+      width: 53%;
+
+      &-1 {
+        padding: 60px 20px 20px 40px; 
+        width: 90%;
+
+        h1 {
+          color: #c2075d; 
+          font-weight: bold;
+        }
+
+        p {
+          font-size: 18px; 
+          color: #000; 
+          margin-top: 20px;
+        }
+
+        div {
+          display: flex;
+        }
+      }
+    }
+
+    .auto-ecole-inris-details-right-border {
+      border-left: 1px solid black; 
+      height: 90%; 
+      display: flex; 
+      margin: auto; 
+      margin-left: 0px; 
+      margin-right: 20px;
+    }
+
+    .formation-details-moto-container {
+      padding: 20px 20px 20px 40px; 
+      width: 100%;
+
+      h3 {
+        color: #c2075d; 
+        font-weight: bold; 
+        text-decoration: underline; 
+        font-size: 18px;
+      }
+
+      div {
+        display: flex; 
+        margin-top: 5px; 
+        justify-content: space-between;
+      }
+
+      .formation-details-p {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

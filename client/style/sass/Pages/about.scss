@@ -1,0 +1,85 @@
+.first-section-about {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lexend';
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url('/client/src/img/motard-route.png');
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .contain-about {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 500px;
+    }
+
+    .detail {
+      width: 50%;
+
+      h2 {
+        font-family: 'Lexend';
+        font-size: 30px;
+      }
+
+      p {
+        color: #74757b;
+        font-family: 'Lexend';
+        margin-top: 40px;
+        line-height: 30px;
+      }
+
+      &-formation {
+        p {
+          line-height: normal;
+          margin-top: 10px;
+
+          span {
+            font-weight: bold;
+            color: #c10058;
+          }
+        }
+      }
+    }
+  }
+
+  .picto {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+    div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 15%;
+
+      img {
+        width: 125px;
+      }
+
+      p {
+        color: #000;
+        font-family: 'Lexend';
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+}
