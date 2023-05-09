@@ -519,7 +519,8 @@ main {
       }
 
       img {
-        width: 490px;
+        width: 400px;
+        height: 400px;
         object-fit: cover;
         transition: 0.3s;
         cursor: auto;
@@ -836,6 +837,129 @@ main {
               p:nth-child(2) {
                 margin-top: 10px;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  height: 500px;
+  background-color: #1f3149;
+
+  .content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+
+    .footer-reseau {
+      width: 200px;
+
+      img {
+        width: 200px;
+      }
+
+      .separator {
+        width: 100px;
+        height: 3px;
+        border-radius: 50px;
+        background-color: #00e5ac;
+        margin: auto;
+        margin-top: 40px;
+      }
+
+      .reseau {
+        display: flex;
+        justify-content: space-around;
+        width: 175px;
+        margin: auto;
+        margin-top: 40px;
+
+        i {
+          color: #bebdbd;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .footer-menu {
+      color: #fff;
+      font-family: 'Lexend';
+      font-size: 16px;
+      width: 200px;
+
+      .separator {
+        width: 100px;
+        height: 3px;
+        border-radius: 50px;
+        background-color: #00e5ac;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+      li {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+
+    .footer-conditions {
+      color: #fff;
+      font-family: 'Lexend';
+      font-size: 16px;
+      width: 300px;
+
+      .separator {
+        width: 100px;
+        height: 3px;
+        border-radius: 50px;
+        background-color: #00e5ac;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+      li {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+
+    .footer-galerie {
+      color: #fff;
+      font-family: 'Lexend';
+      font-size: 16px;
+      width: 350px;
+
+      .separator {
+        width: 100px;
+        height: 3px;
+        border-radius: 50px;
+        background-color: #00e5ac;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+      .image-container {
+        display: flex;
+        flex-direction: column;
+
+        .row {
+          img {
+            width: 100px;
+            object-fit: contain;
+            transition: 0.3s;
+
+            &:hover {
+              filter: brightness(0.4);
             }
           }
         }

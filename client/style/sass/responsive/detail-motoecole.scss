@@ -1,0 +1,86 @@
+@media screen and (max-width: 900px) {
+  .first-section-detail-motoecole {
+
+    .detail-motoecole-solo {
+      flex-direction: column;
+      align-items: flex-start;
+  
+      img {
+        width: 230px !important;
+        border-radius: 30px !important;
+      }
+    }
+
+    .container-moto-ecole-solo {
+      flex-direction: column-reverse !important;
+      margin-left: 0 !important;
+
+      h1 {
+        width: auto !important;
+        font-size: 20px !important;
+        line-height: normal !important;
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .second-section-detail-motoecole {
+    width: 90% !important;
+
+    .container-details-motoecole {
+      flex-direction: column;
+      width: auto !important;
+
+      &-right {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .three-section-detail-motoecole {
+    width: auto !important;
+
+    h1 {
+      font-size: 25px;
+      line-height: 30px !important;
+      width: 90%;
+    }
+
+    .detail-formation-motoecole {
+      flex-direction: column;
+      align-items: center;
+
+      .detail {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .four-section-detail-motoecole {
+    h1 {
+      width: auto !important;
+      font-size: 25px !important;
+    }
+  }
+
+  .five-section-detail-motoecole {
+    h1 {
+      width: auto !important;
+      font-size: 25px !important;
+    }
+
+    .container-financement-motoecole {
+      flex-direction: column;
+
+      .financement-detail:nth-child(1) {
+        margin-top: 0!important;
+      }
+
+      .financement-detail {
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+      }
+    }
+  }
+}

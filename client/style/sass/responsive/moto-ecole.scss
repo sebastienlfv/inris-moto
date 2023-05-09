@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px) {
+  .first-section-motoecole {
+    background-position: 0;
+    background-position-x: -100px;
+  }
+  
+  .red-banner {
+    h1 {
+      font-size: 20px;
+      padding: 15px;
+    } 
+  
+    .list-moto-ecole {
+      flex-direction: column;
+      
+      span {
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+  }
+  
+  .second-section-motoecole {
+    padding: 0;
+    padding-bottom: 100px;
+
+    .button-ensavoirplus-motoecole {
+      justify-content: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  
+    .auto-ecole-inris-details {
+      flex-direction: column;
+      width: 90%;
+  
+      &-left {
+        width: 90% !important;
+      }
+    }
+
+    .formation-details-moto-container {
+      width: auto !important;
+      padding: 20px !important;
+
+      .formation-details-p {
+        margin-right: 25px;
+      }
+    }
+  }
+}

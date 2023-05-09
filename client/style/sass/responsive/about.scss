@@ -1,0 +1,37 @@
+@media screen and (max-width: 900px) {
+  .first-section-about {
+    background-position: 0;
+    background-position-x: -100px;
+    font-size: 20px;
+  }
+
+  .second-section-about {
+    .contain-about {
+      flex-direction: column;
+      width: 80%;
+
+      img {
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        display: flex;
+        margin: auto;
+      }
+
+      .detail {
+        width: 90%;
+        margin-top: 40px;
+      }
+    }
+
+    .picto {
+      flex-direction: column;
+      width: auto;
+
+      div {
+        width: auto;
+        margin-top: 40px;
+      }
+    }
+  }
+}

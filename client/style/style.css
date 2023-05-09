@@ -13,6 +13,10 @@
   font-family: "Lexend";
   src: url("/client/src/font/Lexend-VariableFont_wght.ttf");
 }
+button {
+  cursor: pointer;
+}
+
 body {
   overflow-y: scroll;
   scrollbar-width: none; /* pour Firefox */
@@ -451,7 +455,8 @@ main .four-section-home .gallery-details div {
   justify-content: space-between;
 }
 main .four-section-home .gallery-details img {
-  width: 490px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   transition: 0.3s;
   cursor: auto;
@@ -730,6 +735,110 @@ main .six-section-home .price-details .detail-container .detail div div p:nth-ch
   margin-top: 10px;
 }
 
+footer {
+  height: 500px;
+  background-color: #1f3149;
+}
+footer .content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+footer .content .footer-reseau {
+  width: 200px;
+}
+footer .content .footer-reseau img {
+  width: 200px;
+}
+footer .content .footer-reseau .separator {
+  width: 100px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #00e5ac;
+  margin: auto;
+  margin-top: 40px;
+}
+footer .content .footer-reseau .reseau {
+  display: flex;
+  justify-content: space-around;
+  width: 175px;
+  margin: auto;
+  margin-top: 40px;
+}
+footer .content .footer-reseau .reseau i {
+  color: #bebdbd;
+  font-size: 20px;
+  cursor: pointer;
+}
+footer .content .footer-menu {
+  color: #fff;
+  font-family: "Lexend";
+  font-size: 16px;
+  width: 200px;
+}
+footer .content .footer-menu .separator {
+  width: 100px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #00e5ac;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+footer .content .footer-menu li {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+footer .content .footer-conditions {
+  color: #fff;
+  font-family: "Lexend";
+  font-size: 16px;
+  width: 300px;
+}
+footer .content .footer-conditions .separator {
+  width: 100px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #00e5ac;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+footer .content .footer-conditions li {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+footer .content .footer-galerie {
+  color: #fff;
+  font-family: "Lexend";
+  font-size: 16px;
+  width: 350px;
+}
+footer .content .footer-galerie .separator {
+  width: 100px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #00e5ac;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+footer .content .footer-galerie .image-container {
+  display: flex;
+  flex-direction: column;
+}
+footer .content .footer-galerie .image-container .row img {
+  width: 100px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+footer .content .footer-galerie .image-container .row img:hover {
+  filter: brightness(0.4);
+}
+
 .show {
   display: flex !important;
 }
@@ -847,6 +956,10 @@ main .six-section-home .price-details .detail-container .detail div div p:nth-ch
 .second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-left-1 div {
   display: flex;
 }
+.second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-right {
+  width: 50%;
+  display: flex;
+}
 .second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-right-border {
   border-left: 1px solid black;
   height: 90%;
@@ -884,9 +997,9 @@ main .six-section-home .price-details .detail-container .detail div div p:nth-ch
   font-family: "Lexend";
   font-size: 30px;
   font-weight: bold;
-  background-image: url("/client/src/img/motard-route.png");
+  background-image: url("/client/src/img/harley-davidson-rEPAjhzt7TY-unsplash.jpg");
   background-size: cover;
-  background-position: 0px -300px;
+  background-position: 0px -600px;
   color: #fff;
 }
 
@@ -957,7 +1070,7 @@ main .six-section-home .price-details .detail-container .detail div div p:nth-ch
   font-family: "Lexend";
   font-size: 30px;
   font-weight: bold;
-  background-image: url("/client/src/img/motard-route.png");
+  background-image: url("/client/src/img/harley-davidson-02tt7EvQKhw-unsplash.jpg");
   background-size: cover;
   background-position: 0px -300px;
   color: #fff;
@@ -1311,6 +1424,388 @@ main .six-section-home .price-details .detail-container .detail div div p:nth-ch
   margin-top: 40px;
   line-height: 25px;
   width: 90%;
+}
+
+.first-section-partenaire {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/duncan-adler-Got-SV5YRPg-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -700px;
+  color: #fff;
+}
+
+.second-section-partenaire {
+  font-family: "Lexend";
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section-partenaire p {
+  width: 70%;
+  font-size: 20px;
+  line-height: 40px;
+}
+.second-section-partenaire .left button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+.second-section-partenaire .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-partenaire .groupe-partners {
+  width: 600px;
+  margin-top: 40px;
+}
+
+.first-section-club-moto {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-club-moto {
+  font-family: "Lexend";
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.second-section-club-moto p {
+  width: 70%;
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 20px;
+}
+.second-section-club-moto .left button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+.second-section-club-moto .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-club-moto .right img {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+  header .nav-desktop {
+    display: none !important;
+  }
+  header .separator-container {
+    display: none !important;
+  }
+  header .header-container {
+    width: 100%;
+  }
+  header .header-container img {
+    width: 125px;
+  }
+  main {
+    padding-top: 100px;
+  }
+  .first-section-home .container {
+    padding: 10px !important;
+    width: auto !important;
+  }
+  .first-section-home .container p {
+    font-size: 30px !important;
+  }
+  .first-section-home .container .case-container {
+    display: none;
+  }
+  .second-section-home .services-write {
+    margin-top: 50px !important;
+  }
+  .second-section-home .services-write h1 {
+    font-size: 25px !important;
+  }
+  .second-section-home .services-write .bottom-p {
+    width: 80% !important;
+    font-size: 18px !important;
+  }
+  .second-section-home .service-details {
+    flex-direction: column;
+  }
+  .second-section-home .service-details .details {
+    width: 90% !important;
+    margin: auto;
+    margin-top: 20px;
+    height: 440px !important;
+  }
+  .second-section-home .service-details .details .info-details {
+    height: 400px !important;
+  }
+  .second-section-home .service-details .details .info-details div {
+    width: auto !important;
+  }
+  .second-section-home .service-details .details .info-details div p {
+    width: auto;
+  }
+  .four-section-home .gallery-write {
+    margin-top: 50px !important;
+  }
+  .four-section-home .gallery-write h1 {
+    font-size: 25px !important;
+  }
+  .four-section-home .gallery-write .bottom-p {
+    width: 80% !important;
+    font-size: 18px !important;
+  }
+  .four-section-home .gallery-details div:nth-child(1) {
+    display: none;
+  }
+  .four-section-home .gallery-details div {
+    flex-direction: column;
+  }
+  .four-section-home .gallery-details div img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .five-section-home .blog-write {
+    margin-top: 50px !important;
+  }
+  .five-section-home .blog-write h1 {
+    font-size: 25px !important;
+  }
+  .five-section-home .blog-write .bottom-p {
+    width: 80% !important;
+    font-size: 18px !important;
+  }
+  .five-section-home .blog-details {
+    flex-direction: column;
+  }
+  .five-section-home .blog-details .blog-container-details {
+    width: auto;
+    margin: auto;
+    margin-top: 40px;
+  }
+  footer {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  footer .content {
+    flex-direction: column;
+  }
+  footer .content .footer-reseau {
+    margin-top: 0px;
+  }
+  footer .content .footer-menu, footer .content .footer-conditions, footer .content .footer-galerie {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-motoecole {
+    background-position: 0;
+    background-position-x: -100px;
+  }
+  .red-banner h1 {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .red-banner .list-moto-ecole {
+    flex-direction: column;
+  }
+  .red-banner .list-moto-ecole span {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .second-section-motoecole {
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  .second-section-motoecole .button-ensavoirplus-motoecole {
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+  .second-section-motoecole .auto-ecole-inris-details {
+    flex-direction: column;
+    width: 90%;
+  }
+  .second-section-motoecole .auto-ecole-inris-details-left {
+    width: 90% !important;
+  }
+  .second-section-motoecole .formation-details-moto-container {
+    width: auto !important;
+    padding: 20px !important;
+  }
+  .second-section-motoecole .formation-details-moto-container .formation-details-p {
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-detail-motoecole .detail-motoecole-solo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .first-section-detail-motoecole .detail-motoecole-solo img {
+    width: 230px !important;
+    border-radius: 30px !important;
+  }
+  .first-section-detail-motoecole .container-moto-ecole-solo {
+    flex-direction: column-reverse !important;
+    margin-left: 0 !important;
+  }
+  .first-section-detail-motoecole .container-moto-ecole-solo h1 {
+    width: auto !important;
+    font-size: 20px !important;
+    line-height: normal !important;
+    margin-top: 40px;
+  }
+  .second-section-detail-motoecole {
+    width: 90% !important;
+  }
+  .second-section-detail-motoecole .container-details-motoecole {
+    flex-direction: column;
+    width: auto !important;
+  }
+  .second-section-detail-motoecole .container-details-motoecole-right {
+    margin-top: 40px;
+  }
+  .three-section-detail-motoecole {
+    width: auto !important;
+  }
+  .three-section-detail-motoecole h1 {
+    font-size: 25px;
+    line-height: 30px !important;
+    width: 90%;
+  }
+  .three-section-detail-motoecole .detail-formation-motoecole {
+    flex-direction: column;
+    align-items: center;
+  }
+  .three-section-detail-motoecole .detail-formation-motoecole .detail {
+    margin-top: 20px;
+  }
+  .four-section-detail-motoecole h1 {
+    width: auto !important;
+    font-size: 25px !important;
+  }
+  .five-section-detail-motoecole h1 {
+    width: auto !important;
+    font-size: 25px !important;
+  }
+  .five-section-detail-motoecole .container-financement-motoecole {
+    flex-direction: column;
+  }
+  .five-section-detail-motoecole .container-financement-motoecole .financement-detail:nth-child(1) {
+    margin-top: 0 !important;
+  }
+  .five-section-detail-motoecole .container-financement-motoecole .financement-detail {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-partenaire {
+    background-position: 0;
+    background-position-x: -100px;
+  }
+  .second-section-partenaire {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .second-section-partenaire p {
+    width: auto;
+  }
+  .second-section-partenaire .left button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .second-section-partenaire .groupe-partners {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-club-moto {
+    background-position: 0;
+    background-position-x: -100px;
+  }
+  .second-section-club-moto {
+    flex-direction: column;
+  }
+  .second-section-club-moto p {
+    width: auto;
+  }
+  .second-section-club-moto .right img {
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-about {
+    background-position: 0;
+    background-position-x: -100px;
+    font-size: 20px;
+  }
+  .second-section-about .contain-about {
+    flex-direction: column;
+    width: 80%;
+  }
+  .second-section-about .contain-about img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+  }
+  .second-section-about .contain-about .detail {
+    width: 90%;
+    margin-top: 40px;
+  }
+  .second-section-about .picto {
+    flex-direction: column;
+    width: auto;
+  }
+  .second-section-about .picto div {
+    width: auto;
+    margin-top: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

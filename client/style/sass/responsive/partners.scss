@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px) {
+  .first-section-partenaire {
+    background-position: 0;
+    background-position-x: -100px;
+  }
+
+  .second-section-partenaire {
+    flex-direction: column;
+    padding-bottom: 50px;
+
+    p {
+      width: auto;
+    }
+
+    .left button  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    .groupe-partners {
+      width: 380px;
+    }
+  }
+}

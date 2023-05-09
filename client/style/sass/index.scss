@@ -14,8 +14,23 @@
   src: url('/client/src/font/Lexend-VariableFont_wght.ttf');
 }
 
+button {
+  cursor: pointer
+}
+
 @import './Pages/home.scss';
 @import './Pages/moto-ecole.scss';
 @import './Pages/about.scss';
 @import './Pages/blog.scss';
-@import './Pages/moto-ecoles/detail-motoecole.scss'
+@import './Pages/moto-ecoles/detail-motoecole.scss';
+@import './Pages/partners.scss';
+@import './Pages/club-moto.scss';
+
+// responsive mobile
+
+@import './responsive/home.scss';
+@import './responsive/moto-ecole.scss';
+@import './responsive/detail-motoecole.scss';
+@import './responsive/partners.scss';
+@import './responsive/club-moto.scss';
+@import './responsive/about.scss';
