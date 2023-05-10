@@ -1,0 +1,121 @@
+.first-section-stage-125-accel-1j {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lexend';
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url('/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg');
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-stage-125-accel-1j {
+  font-family: 'Lexend';
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+
+  p {
+    width: 80%;
+    line-height: 35px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  .left {
+    button {
+      width: 250px;
+      height: 50px;
+      border: 3px solid #28C49D;
+      background-color: #00e5ac;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 50px;
+      margin-top: 40px;
+    }
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 600px;
+      height: 800px;
+      object-fit: cover;
+    }
+  }
+}
+
+.three-section-stage-125-accel-1j {
+  font-family: 'Lexend';
+  padding-bottom: 50px;
+
+  .container-stage {
+    background: linear-gradient(234deg, rgba(193,0,88,1) 0%, rgba(40,27,89,1) 100%);
+    color: #fff;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+
+    h2 {
+      margin-top: 20px;
+    }
+
+    .separator {
+      background-color: #00e5ac;
+      width: 150px;
+      height: 3px;
+      border-radius: 50px;
+      margin-top: 20px;
+    }
+
+    ul {
+      margin-top: 20px;
+
+      li {
+        margin-top: 10px;
+        list-style-type: disc;
+      }
+    }
+
+    .container-price {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+
+      .from-price {
+        font-size: 16px;
+      }
+
+      .price {
+        font-size: 50px;
+      }
+    }
+
+    button {
+      width: 250px;
+      height: 50px;
+      border: 3px solid #28C49D;
+      background-color: #00e5ac;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 50px;
+      margin-top: 20px;
+    }
+  }
+}

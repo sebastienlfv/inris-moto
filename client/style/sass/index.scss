@@ -25,6 +25,10 @@ button {
 @import './Pages/moto-ecoles/detail-motoecole.scss';
 @import './Pages/partners.scss';
 @import './Pages/club-moto.scss';
+@import './Pages/stages/stage-moto-a2.scss';
+@import './Pages/stages/stage-125-accel-1j.scss';
+@import './Pages/stages/stage-am-accel-2j.scss';
+@import './Pages/stages/stage-moto-accel-3j.scss';
 
 // responsive mobile
 
@@ -34,3 +38,8 @@ button {
 @import './responsive/partners.scss';
 @import './responsive/club-moto.scss';
 @import './responsive/about.scss';
+@import './responsive/blog.scss';
+@import './responsive/stages/stage-moto-a2.scss';
+@import './responsive/stages/stage-125-accel-1j.scss';
+@import './responsive/stages/stage-am-accel-2j.scss';
+@import './responsive/stages/stage-moto-accel-3j.scss'

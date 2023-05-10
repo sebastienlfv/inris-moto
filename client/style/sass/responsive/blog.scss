@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px) {
+  .first-section-blog {
+    background-position: 0;
+    background-position-x: -100px;
+  }
+
+  .second-section-blog {
+    .contain-blog:nth-child(1) {
+      margin-top: 0;
+    }
+
+    .contain-blog {
+      flex-direction: column;
+      margin-top: 80px;
+      width: auto;
+      align-items: center;
+
+      .blog-container-details {
+        margin-top: 40px;
+      }
+    }
+  }
+}

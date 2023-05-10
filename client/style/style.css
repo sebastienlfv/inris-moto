@@ -1525,6 +1525,434 @@ footer .content .footer-galerie .image-container .row img:hover {
   object-fit: cover;
 }
 
+.first-section-stage-moto-a2 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-stage-moto-a2 {
+  font-family: "Lexend";
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.second-section-stage-moto-a2 p {
+  width: 80%;
+  line-height: 35px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.second-section-stage-moto-a2 .left button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+.second-section-stage-moto-a2 .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-stage-moto-a2 .right img {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.three-section-stage-moto-a2 {
+  font-family: "Lexend";
+  padding-bottom: 50px;
+}
+.three-section-stage-moto-a2 .container-stage {
+  background: linear-gradient(234deg, rgb(193, 0, 88) 0%, rgb(40, 27, 89) 100%);
+  color: #fff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.three-section-stage-moto-a2 .container-stage h2 {
+  margin-top: 20px;
+}
+.three-section-stage-moto-a2 .container-stage .separator {
+  background-color: #00e5ac;
+  width: 150px;
+  height: 3px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.three-section-stage-moto-a2 .container-stage ul {
+  margin-top: 20px;
+}
+.three-section-stage-moto-a2 .container-stage ul li {
+  margin-top: 10px;
+  list-style-type: disc;
+}
+.three-section-stage-moto-a2 .container-stage .container-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.three-section-stage-moto-a2 .container-stage .container-price .from-price {
+  font-size: 16px;
+}
+.three-section-stage-moto-a2 .container-stage .container-price .price {
+  font-size: 50px;
+}
+.three-section-stage-moto-a2 .container-stage button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.first-section-stage-125-accel-1j {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-stage-125-accel-1j {
+  font-family: "Lexend";
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.second-section-stage-125-accel-1j p {
+  width: 80%;
+  line-height: 35px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.second-section-stage-125-accel-1j .left button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+.second-section-stage-125-accel-1j .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-stage-125-accel-1j .right img {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.three-section-stage-125-accel-1j {
+  font-family: "Lexend";
+  padding-bottom: 50px;
+}
+.three-section-stage-125-accel-1j .container-stage {
+  background: linear-gradient(234deg, rgb(193, 0, 88) 0%, rgb(40, 27, 89) 100%);
+  color: #fff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.three-section-stage-125-accel-1j .container-stage h2 {
+  margin-top: 20px;
+}
+.three-section-stage-125-accel-1j .container-stage .separator {
+  background-color: #00e5ac;
+  width: 150px;
+  height: 3px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.three-section-stage-125-accel-1j .container-stage ul {
+  margin-top: 20px;
+}
+.three-section-stage-125-accel-1j .container-stage ul li {
+  margin-top: 10px;
+  list-style-type: disc;
+}
+.three-section-stage-125-accel-1j .container-stage .container-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.three-section-stage-125-accel-1j .container-stage .container-price .from-price {
+  font-size: 16px;
+}
+.three-section-stage-125-accel-1j .container-stage .container-price .price {
+  font-size: 50px;
+}
+.three-section-stage-125-accel-1j .container-stage button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.first-section-stage-am-accel-2j {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-stage-am-accel-2j {
+  font-family: "Lexend";
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.second-section-stage-am-accel-2j p {
+  width: 80%;
+  line-height: 35px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.second-section-stage-am-accel-2j .left button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+.second-section-stage-am-accel-2j .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-stage-am-accel-2j .right img {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.three-section-stage-am-accel-2j {
+  font-family: "Lexend";
+  padding-bottom: 50px;
+}
+.three-section-stage-am-accel-2j .container-stage {
+  background: linear-gradient(234deg, rgb(193, 0, 88) 0%, rgb(40, 27, 89) 100%);
+  color: #fff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.three-section-stage-am-accel-2j .container-stage h2 {
+  margin-top: 20px;
+}
+.three-section-stage-am-accel-2j .container-stage .separator {
+  background-color: #00e5ac;
+  width: 150px;
+  height: 3px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.three-section-stage-am-accel-2j .container-stage ul {
+  margin-top: 20px;
+}
+.three-section-stage-am-accel-2j .container-stage ul li {
+  margin-top: 10px;
+  list-style-type: disc;
+}
+.three-section-stage-am-accel-2j .container-stage .container-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.three-section-stage-am-accel-2j .container-stage .container-price .from-price {
+  font-size: 16px;
+}
+.three-section-stage-am-accel-2j .container-stage .container-price .price {
+  font-size: 50px;
+}
+.three-section-stage-am-accel-2j .container-stage button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.first-section-stage-moto-accel-3j {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-stage-moto-accel-3j {
+  font-family: "Lexend";
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.second-section-stage-moto-accel-3j p {
+  width: 80%;
+  line-height: 35px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.second-section-stage-moto-accel-3j .left button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+.second-section-stage-moto-accel-3j .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-stage-moto-accel-3j .right img {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.three-section-stage-moto-accel-3j {
+  font-family: "Lexend";
+  padding-bottom: 50px;
+}
+.three-section-stage-moto-accel-3j .container-stage {
+  background: linear-gradient(234deg, rgb(193, 0, 88) 0%, rgb(40, 27, 89) 100%);
+  color: #fff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.three-section-stage-moto-accel-3j .container-stage h2 {
+  margin-top: 20px;
+}
+.three-section-stage-moto-accel-3j .container-stage .separator {
+  background-color: #00e5ac;
+  width: 150px;
+  height: 3px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.three-section-stage-moto-accel-3j .container-stage ul {
+  margin-top: 20px;
+}
+.three-section-stage-moto-accel-3j .container-stage ul li {
+  margin-top: 10px;
+  list-style-type: disc;
+}
+.three-section-stage-moto-accel-3j .container-stage .container-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.three-section-stage-moto-accel-3j .container-stage .container-price .from-price {
+  font-size: 16px;
+}
+.three-section-stage-moto-accel-3j .container-stage .container-price .price {
+  font-size: 50px;
+}
+.three-section-stage-moto-accel-3j .container-stage button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 900px) {
   header .nav-desktop {
     display: none !important;
@@ -1805,6 +2233,124 @@ footer .content .footer-galerie .image-container .row img:hover {
   .second-section-about .picto div {
     width: auto;
     margin-top: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-blog {
+    background-position: 0;
+    background-position-x: -100px;
+  }
+  .second-section-blog .contain-blog:nth-child(1) {
+    margin-top: 0;
+  }
+  .second-section-blog .contain-blog {
+    flex-direction: column;
+    margin-top: 80px;
+    width: auto;
+    align-items: center;
+  }
+  .second-section-blog .contain-blog .blog-container-details {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-stage-moto-a2 {
+    background-position: 0;
+    background-position-x: -100px;
+    font-size: 20px;
+  }
+  .second-section-stage-moto-a2 {
+    flex-direction: column;
+  }
+  .second-section-stage-moto-a2 p {
+    width: auto;
+  }
+  .second-section-stage-moto-a2 .right img {
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+  }
+  .three-section-stage-moto-a2 .container-stage {
+    width: 80%;
+    padding: 35px;
+  }
+  .three-section-stage-moto-a2 .container-stage h2 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-stage-125-accel-1j {
+    background-position: 0;
+    background-position-x: -100px;
+    font-size: 20px;
+  }
+  .second-section-stage-125-accel-1j {
+    flex-direction: column;
+  }
+  .second-section-stage-125-accel-1j p {
+    width: auto;
+  }
+  .second-section-stage-125-accel-1j .right img {
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+  }
+  .three-section-stage-125-accel-1j .container-stage {
+    width: 80%;
+    padding: 35px;
+  }
+  .three-section-stage-125-accel-1j .container-stage h2 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-stage-am-accel-2j {
+    background-position: 0;
+    background-position-x: -100px;
+    font-size: 20px;
+  }
+  .second-section-stage-am-accel-2j {
+    flex-direction: column;
+  }
+  .second-section-stage-am-accel-2j p {
+    width: auto;
+  }
+  .second-section-stage-am-accel-2j .right img {
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+  }
+  .three-section-stage-am-accel-2j .container-stage {
+    width: 80%;
+    padding: 35px;
+  }
+  .three-section-stage-am-accel-2j .container-stage h2 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-section-stage-moto-accel-3j {
+    background-position: 0;
+    background-position-x: -100px;
+    font-size: 20px;
+  }
+  .second-section-stage-moto-accel-3j {
+    flex-direction: column;
+  }
+  .second-section-stage-moto-accel-3j p {
+    width: auto;
+  }
+  .second-section-stage-moto-accel-3j .right img {
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+  }
+  .three-section-stage-moto-accel-3j .container-stage {
+    width: 80%;
+    padding: 35px;
+  }
+  .three-section-stage-moto-accel-3j .container-stage h2 {
+    font-size: 18px;
   }
 }
 
