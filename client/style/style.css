@@ -2198,6 +2198,9 @@ footer .content .footer-galerie .image-container .row img:hover {
   main {
     padding-top: 100px;
   }
+  .first-section-home {
+    padding-bottom: 200px !important;
+  }
   .first-section-home .container {
     padding: 10px !important;
     width: auto !important;
@@ -2236,6 +2239,30 @@ footer .content .footer-galerie .image-container .row img:hover {
   .second-section-home .service-details .details .info-details div p {
     width: auto;
   }
+  .three-section-home .container {
+    width: auto !important;
+  }
+  .three-section-home .container .top-container {
+    margin-left: 50px !important;
+    align-items: baseline !important;
+    margin-right: 0px !important;
+  }
+  .three-section-home .container .bottom {
+    height: auto !important;
+    flex-direction: column;
+  }
+  .three-section-home .container .bottom .left {
+    width: auto !important;
+  }
+  .three-section-home .container .bottom .left p {
+    width: auto !important;
+  }
+  .three-section-home .container .bottom .right {
+    width: auto !important;
+  }
+  .three-section-home .container .bottom .right p {
+    width: auto !important;
+  }
   .four-section-home .gallery-write {
     margin-top: 50px !important;
   }
@@ -2273,6 +2300,19 @@ footer .content .footer-galerie .image-container .row img:hover {
     width: auto;
     margin: auto;
     margin-top: 40px;
+  }
+  .six-section-home .price-details {
+    flex-direction: column;
+  }
+  .six-section-home .price-details .container-details-price {
+    width: auto !important;
+    margin-top: 20px;
+  }
+  .six-section-home .price-details .container-details-price .price p:nth-child(2) {
+    top: 25px !important;
+  }
+  .six-section-home .price-details .container-details-price .detail {
+    width: 400px !important;
   }
   footer {
     height: 100%;
