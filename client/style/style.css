@@ -53,6 +53,49 @@ header {
   width: 50%;
   justify-content: space-between;
 }
+.header-container nav .stage-menu {
+  position: relative;
+}
+.header-container nav .menu {
+  position: absolute;
+  top: 100%; /* Positionne la div .menu juste en dessous de .stage-menu */
+  left: 0;
+  opacity: 0;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  will-change: transform, opacity;
+}
+.header-container nav .stage-menu:hover .menu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+@keyframes slideDown {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 100px;
+  }
+}
+.header-container nav .stage-menu {
+  position: relative;
+  transition: 0.3s;
+}
+.header-container nav .stage-menu .menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20px;
+  width: 250px;
+  align-items: flex-start;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 4px 7px 5px 0px #202020;
+}
+.header-container nav .stage-menu .menu a {
+  margin-top: 20px;
+}
 .header-container nav div {
   display: flex;
   align-items: center;
@@ -93,13 +136,15 @@ header {
   font-family: "Lexend";
   background-color: #00e5ac;
   border: none;
-  color: #fff;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
 }
 .header-container .separator-container button:hover {
   background-color: #28C49D;
+}
+.header-container .separator-container button a {
+  color: #fff;
 }
 
 main {
@@ -108,12 +153,15 @@ main {
 main .first-section-home {
   background-image: url("/client/src/img/motard-route.png");
   background-size: cover;
-  padding-bottom: 235px;
+  padding-bottom: 400px;
 }
 main .first-section-home .container {
   padding: 100px;
   width: 40%;
   font-family: "Lexend";
+}
+main .first-section-home .container a {
+  color: #fff;
 }
 main .first-section-home .container h1 {
   color: #fff;
@@ -797,6 +845,9 @@ footer .content .footer-conditions {
   font-family: "Lexend";
   font-size: 16px;
   width: 300px;
+}
+footer .content .footer-conditions a {
+  color: #fff;
 }
 footer .content .footer-conditions .separator {
   width: 100px;
@@ -1953,6 +2004,184 @@ footer .content .footer-galerie .image-container .row img:hover {
   margin-top: 20px;
 }
 
+.first-section-stage-passerelle {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-stage-passerelle {
+  font-family: "Lexend";
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.second-section-stage-passerelle p {
+  width: 80%;
+  line-height: 35px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.second-section-stage-passerelle .left button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+.second-section-stage-passerelle .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-stage-passerelle .right img {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.three-section-stage-passerelle {
+  font-family: "Lexend";
+  padding-bottom: 50px;
+}
+.three-section-stage-passerelle .container-stage {
+  background: linear-gradient(234deg, rgb(193, 0, 88) 0%, rgb(40, 27, 89) 100%);
+  color: #fff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.three-section-stage-passerelle .container-stage h2 {
+  margin-top: 20px;
+}
+.three-section-stage-passerelle .container-stage .separator {
+  background-color: #00e5ac;
+  width: 150px;
+  height: 3px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.three-section-stage-passerelle .container-stage ul {
+  margin-top: 20px;
+}
+.three-section-stage-passerelle .container-stage ul li {
+  margin-top: 10px;
+  list-style-type: disc;
+}
+.three-section-stage-passerelle .container-stage .container-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.three-section-stage-passerelle .container-stage .container-price .from-price {
+  font-size: 16px;
+}
+.three-section-stage-passerelle .container-stage .container-price .price {
+  font-size: 50px;
+}
+.three-section-stage-passerelle .container-stage button {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #28C49D;
+  background-color: #00e5ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.container-mention-legales {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Lexend";
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-mention-legales h1 {
+  font-size: 40px;
+}
+.container-mention-legales h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-mention-legales h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-mention-legales p {
+  text-align: left;
+}
+
+.container-donnees-personnelles {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Lexend";
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-donnees-personnelles h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.container-donnees-personnelles h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-donnees-personnelles h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-donnees-personnelles p {
+  text-align: left;
+}
+
+.container-condition-ventes {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Lexend";
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-condition-ventes h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.container-condition-ventes h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-condition-ventes h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-condition-ventes p {
+  text-align: left;
+}
+
 @media screen and (max-width: 900px) {
   header .nav-desktop {
     display: none !important;
@@ -2333,6 +2562,8 @@ footer .content .footer-galerie .image-container .row img:hover {
     background-position: 0;
     background-position-x: -100px;
     font-size: 20px;
+    padding: 20px;
+    text-align: center;
   }
   .second-section-stage-moto-accel-3j {
     flex-direction: column;
@@ -2351,6 +2582,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   }
   .three-section-stage-moto-accel-3j .container-stage h2 {
     font-size: 18px;
+    text-align: center;
   }
 }
 
