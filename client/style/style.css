@@ -1615,6 +1615,9 @@ footer .content .footer-galerie .image-container .row img:hover {
   margin-top: 20px;
   text-align: justify;
 }
+.second-section-stage-moto-a2 .left {
+  width: 50%;
+}
 .second-section-stage-moto-a2 .left button {
   width: 250px;
   height: 50px;
@@ -1630,11 +1633,119 @@ footer .content .footer-galerie .image-container .row img:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50%;
 }
-.second-section-stage-moto-a2 .right img {
-  width: 600px;
-  height: 800px;
-  object-fit: cover;
+.second-section-stage-moto-a2 .right button {
+  background-color: #00e5ac;
+  color: #fff;
+  font-family: "Lexend";
+  padding: 10px 40px;
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+  transition: 0.3s;
+}
+.second-section-stage-moto-a2 .right button a {
+  color: #fff;
+}
+.second-section-stage-moto-a2 .right button:hover {
+  background-color: #28C49D;
+}
+.second-section-stage-moto-a2 .right .top {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+}
+.second-section-stage-moto-a2 .right .top .top-left {
+  background-color: #00e5ac;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  justify-content: space-between;
+}
+.second-section-stage-moto-a2 .right .top .top-left p {
+  text-align: left;
+  margin-top: 0;
+  font-size: 20px;
+}
+.second-section-stage-moto-a2 .right .top .top-left p:nth-child(2) {
+  font-size: 50px;
+}
+.second-section-stage-moto-a2 .right .top .top-left p:nth-child(2) span {
+  font-size: 20px;
+}
+.second-section-stage-moto-a2 .right .top .top-right {
+  width: 400px;
+}
+.second-section-stage-moto-a2 .right .top .top-right div {
+  gap: 10px;
+  display: flex;
+}
+.second-section-stage-moto-a2 .right .top .top-right i {
+  color: #fff;
+  background-color: #C10058;
+  padding: 10px;
+}
+.second-section-stage-moto-a2 .right .bottom {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  margin-top: 40px;
+}
+.second-section-stage-moto-a2 .right .bottom .top-bottom {
+  display: flex;
+}
+.second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-left, .second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-right {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  color: #fff;
+  background-color: #161616;
+  border: #525252 solid 1px;
+  padding: 20px;
+}
+.second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-left i, .second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-right i {
+  font-size: 40px;
+  margin-right: 20px;
+}
+.second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-left div, .second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-right div {
+  width: 100%;
+}
+.second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-left div p, .second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-right div p {
+  width: auto;
+  margin-top: 0px;
+}
+.second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-left div p:nth-child(2), .second-section-stage-moto-a2 .right .bottom .top-bottom .bottom-top-right div p:nth-child(2) {
+  color: #e0e0e0;
+}
+.second-section-stage-moto-a2 .right .bottom .bottom-bottom {
+  display: flex;
+}
+.second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-left, .second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-right {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  color: #fff;
+  background-color: #161616;
+  border: #525252 solid 1px;
+  padding: 20px;
+}
+.second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-left i, .second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-right i {
+  font-size: 40px;
+  margin-right: 20px;
+}
+.second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-left div, .second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-right div {
+  width: 100%;
+}
+.second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-left div p, .second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-right div p {
+  width: auto;
+  margin-top: 0px;
+}
+.second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-left div p:nth-child(2), .second-section-stage-moto-a2 .right .bottom .bottom-bottom .bottom-bottom-right div p:nth-child(2) {
+  color: #e0e0e0;
 }
 
 .three-section-stage-moto-a2 {
@@ -2570,20 +2681,29 @@ footer .content .footer-galerie .image-container .row img:hover {
   .second-section-stage-moto-a2 {
     flex-direction: column;
   }
-  .second-section-stage-moto-a2 p {
+  .second-section-stage-moto-a2 .left {
+    width: auto !important;
+  }
+  .second-section-stage-moto-a2 .left p {
+    width: auto !important;
+  }
+  .second-section-stage-moto-a2 .right {
+    width: auto !important;
+  }
+  .second-section-stage-moto-a2 .right .bottom {
     width: auto;
   }
-  .second-section-stage-moto-a2 .right img {
-    width: 300px;
-    height: 400px;
-    margin-top: 40px;
+  .second-section-stage-moto-a2 .right .bottom .top-bottom {
+    flex-direction: column;
   }
-  .three-section-stage-moto-a2 .container-stage {
-    width: 80%;
-    padding: 35px;
+  .second-section-stage-moto-a2 .right .bottom .bottom-bottom {
+    flex-direction: column;
   }
-  .three-section-stage-moto-a2 .container-stage h2 {
-    font-size: 18px;
+  .second-section-stage-moto-a2 .right .top {
+    width: auto;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
   }
 }
 @media screen and (max-width: 900px) {

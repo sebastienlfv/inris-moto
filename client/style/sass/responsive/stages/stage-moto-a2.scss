@@ -8,26 +8,32 @@
   .second-section-stage-moto-a2 {
     flex-direction: column;
 
-    p {
-      width: auto;
+    .left {
+      width: auto !important;
+
+      p {
+        width: auto !important;
+      }
     }
 
     .right {
-      img {
-        width: 300px;
-        height: 400px;
-        margin-top: 40px;
+      width: auto !important;
+      .bottom {
+        width: auto;
+        .top-bottom {
+          flex-direction: column;
+        }
+
+        .bottom-bottom {
+          flex-direction: column;
+        }
       }
-    }
-  }
 
-  .three-section-stage-moto-a2 {
-    .container-stage {
-      width: 80%;
-      padding: 35px;
-
-      h2 {
-        font-size: 18px;
+      .top {
+        width: auto;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
       }
     }
   }

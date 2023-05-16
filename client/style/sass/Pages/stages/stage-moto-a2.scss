@@ -29,6 +29,7 @@
   }
 
   .left {
+    width: 50%;
     button {
       width: 250px;
       height: 50px;
@@ -46,11 +47,142 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
 
-    img {
-      width: 600px;
-      height: 800px;
-      object-fit: cover;
+    button {
+      background-color: #00e5ac;
+      color: #fff;
+      font-family: 'Lexend';
+      padding: 10px 40px;
+      margin-top: 20px;
+      font-size: 18px;
+      border: none;
+      transition: 0.3s;
+
+      a {
+        color: #fff
+      }
+
+      &:hover {
+        background-color: #28C49D;
+      }
+    }
+
+    .top {
+      display: flex;
+      width: 650px;
+      justify-content: space-between;
+
+      .top-left {
+        background-color: #00e5ac;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        color: #fff;
+        justify-content: space-between;
+
+        p {
+          text-align: left;
+          margin-top: 0;
+          font-size: 20px;
+        }
+
+        p:nth-child(2) {
+          font-size: 50px;
+
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .top-right {
+        width: 400px;
+        
+        div {
+          gap: 10px;
+          display: flex;
+        }
+        i {
+          color: #fff;
+          background-color: #C10058;
+          padding: 10px;
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      flex-direction: column;
+      width: 650px;
+      margin-top: 40px;
+      
+      .top-bottom {
+        display: flex;
+        
+
+        .bottom-top-left, .bottom-top-right {
+          display: flex;
+          align-items: center;
+          width: 300px;
+          color: #fff;
+          background-color: #161616;
+          border: #525252 solid 1px;
+          padding: 20px;
+
+          i {
+            font-size: 40px;
+            margin-right: 20px;
+          }
+
+          div {
+            width: 100%;
+
+            p {
+              width: auto;
+              margin-top: 0px;
+            }
+
+            p:nth-child(2) {
+              color: #e0e0e0;
+            }
+          }
+        }
+      }
+
+      .bottom-bottom {
+        display: flex;
+
+        .bottom-bottom-left, .bottom-bottom-right {
+          display: flex;
+          align-items: center;
+          width: 300px;
+          color: #fff;
+          background-color: #161616;
+          border: #525252 solid 1px;
+          padding: 20px;
+
+          i {
+            font-size: 40px;
+            margin-right: 20px;
+          }
+
+          div {
+            width: 100%;
+
+            p {
+              width: auto;
+              margin-top: 0px;
+            }
+
+            p:nth-child(2) {
+              color: #e0e0e0;
+            }
+          }
+        }
+      }
     }
   }
 }
