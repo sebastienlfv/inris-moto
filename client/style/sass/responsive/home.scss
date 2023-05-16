@@ -4,16 +4,52 @@
     .nav-desktop {
       display: none !important;
     }
+
+    .burger-mobile {
+      display: flex;
+    }
   
     .separator-container {
       display: none !important;
     }
 
     .header-container {
-      width: 100%;
+      position: relative;
 
       img {
         width: 125px;
+      }
+
+      .nav-mobile {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 420px;
+        top: 103px;
+        right: -20px;
+        font-family: 'Lexend';
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        div {
+          margin-left: 20px;
+        }
+
+        .stage-menu {
+          .menu-stage-mobile {
+            display: none;
+            flex-direction: column;
+            padding-top: 10px;
+            gap: 10px;
+          }
+        }
+
+        a {
+          color: #000;
+        }
       }
     }
   }

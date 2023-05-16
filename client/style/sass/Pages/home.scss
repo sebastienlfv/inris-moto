@@ -8,12 +8,24 @@ body::-webkit-scrollbar {
   display: none; /* pour Chrome, Safari, et Opera */
 }
 
+.menu-stage-mobile {
+  display: none;
+}
+
 header {
   width: 100%;
   position: fixed;
   background-color: #fff;
   z-index: 1000;
   border-bottom: 2px solid #c2075d;
+
+  .nav-mobile {
+    display: none;
+  }
+
+  .burger-mobile {
+    display: none;
+  }
 }
 
 .header-container {
@@ -30,7 +42,7 @@ header {
     width: 150px;
   }
 
-  nav {
+  .nav-desktop {
     display: flex;
     width: 50%;
     justify-content: space-between;

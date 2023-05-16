@@ -6,7 +6,7 @@
 }
 
 .activ {
-  color: #6d6d6d !important;
+  color: #C10058 !important;
 }
 
 @font-face {
@@ -27,12 +27,22 @@ body::-webkit-scrollbar {
   display: none; /* pour Chrome, Safari, et Opera */
 }
 
+.menu-stage-mobile {
+  display: none;
+}
+
 header {
   width: 100%;
   position: fixed;
   background-color: #fff;
   z-index: 1000;
   border-bottom: 2px solid #c2075d;
+}
+header .nav-mobile {
+  display: none;
+}
+header .burger-mobile {
+  display: none;
 }
 
 .header-container {
@@ -48,15 +58,15 @@ header {
   cursor: pointer;
   width: 150px;
 }
-.header-container nav {
+.header-container .nav-desktop {
   display: flex;
   width: 50%;
   justify-content: space-between;
 }
-.header-container nav .stage-menu {
+.header-container .nav-desktop .stage-menu {
   position: relative;
 }
-.header-container nav .menu {
+.header-container .nav-desktop .menu {
   position: absolute;
   top: 100%; /* Positionne la div .menu juste en dessous de .stage-menu */
   left: 0;
@@ -66,7 +76,7 @@ header {
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   will-change: transform, opacity;
 }
-.header-container nav .stage-menu:hover .menu {
+.header-container .nav-desktop .stage-menu:hover .menu {
   opacity: 1;
   transform: scaleY(1);
 }
@@ -78,11 +88,11 @@ header {
     max-height: 100px;
   }
 }
-.header-container nav .stage-menu {
+.header-container .nav-desktop .stage-menu {
   position: relative;
   transition: 0.3s;
 }
-.header-container nav .stage-menu .menu {
+.header-container .nav-desktop .stage-menu .menu {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -93,32 +103,32 @@ header {
   padding: 20px;
   box-shadow: 4px 7px 5px 0px #202020;
 }
-.header-container nav .stage-menu .menu a {
+.header-container .nav-desktop .stage-menu .menu a {
   margin-top: 20px;
 }
-.header-container nav div {
+.header-container .nav-desktop div {
   display: flex;
   align-items: center;
   gap: 10px;
   cursor: pointer;
 }
-.header-container nav div:hover i {
+.header-container .nav-desktop div:hover i {
   transition: 0.3s;
   transform: rotate(90deg);
   color: #000;
 }
-.header-container nav i {
+.header-container .nav-desktop i {
   color: #a6a7ab;
   font-size: 14px;
   transition: 0.3s;
 }
-.header-container nav a {
+.header-container .nav-desktop a {
   font-family: "Lexend";
   color: #000;
   font-size: 16px;
   transition: 0.3s;
 }
-.header-container nav a:hover {
+.header-container .nav-desktop a:hover {
   color: #6d6d6d;
 }
 .header-container .separator-container {
@@ -2186,14 +2196,43 @@ footer .content .footer-galerie .image-container .row img:hover {
   header .nav-desktop {
     display: none !important;
   }
+  header .burger-mobile {
+    display: flex;
+  }
   header .separator-container {
     display: none !important;
   }
   header .header-container {
-    width: 100%;
+    position: relative;
   }
   header .header-container img {
     width: 125px;
+  }
+  header .header-container .nav-mobile {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 420px;
+    top: 103px;
+    right: -20px;
+    font-family: "Lexend";
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header .header-container .nav-mobile div {
+    margin-left: 20px;
+  }
+  header .header-container .nav-mobile .stage-menu .menu-stage-mobile {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 10px;
+  }
+  header .header-container .nav-mobile a {
+    color: #000;
   }
   main {
     padding-top: 100px;
