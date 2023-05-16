@@ -297,6 +297,10 @@ main {
         overflow: hidden;
         cursor: pointer;
 
+        .global {
+          color: #000;
+        }
+
         &:hover {
           img {
             filter: brightness(0.4);
@@ -653,6 +657,7 @@ main {
         width: 400px;
         font-family: 'Lexend';
         cursor: pointer;
+        color: #000;
 
         .blog-type {
           position: absolute;
@@ -844,7 +849,7 @@ main {
             font-size: 30px;
             position: absolute;
             right: 10px;
-            top: 10px
+            top: 20px
           }
         }
 
@@ -864,15 +869,16 @@ main {
             margin-top: 20px;
           }
 
-          button {
+          a {
             margin-top: 50px;
             padding: 20px;
             font-family: 'Lexend';
-            color: #000;
             border: none;
             background-color: #fff;
             cursor: pointer;
             transition: 0.3s;
+            color: #000;
+            text-align: center;
 
             &:hover {
               background-color: #00e5ac;

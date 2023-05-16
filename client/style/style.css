@@ -273,6 +273,9 @@ main .second-section-home .service-details .details {
   overflow: hidden;
   cursor: pointer;
 }
+main .second-section-home .service-details .details .global {
+  color: #000;
+}
 main .second-section-home .service-details .details:hover img {
   filter: brightness(0.4);
 }
@@ -569,6 +572,7 @@ main .five-section-home .blog-details .blog-container-details {
   width: 400px;
   font-family: "Lexend";
   cursor: pointer;
+  color: #000;
 }
 main .five-section-home .blog-details .blog-container-details .blog-type {
   position: absolute;
@@ -736,7 +740,7 @@ main .six-section-home .price-details .detail-container .price p:nth-child(2) {
   font-size: 30px;
   position: absolute;
   right: 10px;
-  top: 10px;
+  top: 20px;
 }
 main .six-section-home .price-details .detail-container .detail {
   display: flex;
@@ -753,17 +757,18 @@ main .six-section-home .price-details .detail-container .detail .separator {
   height: 1px;
   margin-top: 20px;
 }
-main .six-section-home .price-details .detail-container .detail button {
+main .six-section-home .price-details .detail-container .detail a {
   margin-top: 50px;
   padding: 20px;
   font-family: "Lexend";
-  color: #000;
   border: none;
   background-color: #fff;
   cursor: pointer;
   transition: 0.3s;
+  color: #000;
+  text-align: center;
 }
-main .six-section-home .price-details .detail-container .detail button:hover {
+main .six-section-home .price-details .detail-container .detail a:hover {
   background-color: #00e5ac;
   color: #fff;
 }
