@@ -852,6 +852,9 @@ footer .content .footer-menu li {
   align-items: center;
   cursor: pointer;
 }
+footer .content .footer-menu a {
+  color: #fff;
+}
 footer .content .footer-conditions {
   color: #fff;
   font-family: "Lexend";
@@ -1156,6 +1159,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   font-family: "Lexend";
   cursor: pointer;
   background-color: #fff;
+  color: #000;
 }
 .second-section-blog .contain-blog .blog-container-details .blog-type {
   position: absolute;
@@ -2240,6 +2244,103 @@ footer .content .footer-galerie .image-container .row img:hover {
   margin-top: 20px;
 }
 
+.first-section-blog-permis-a2 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/harley-davidson-02tt7EvQKhw-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.second-section-blog-permis-a2 {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Lexend";
+  width: 60%;
+  margin: auto;
+}
+.second-section-blog-permis-a2 a {
+  color: #fff;
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #00e5ac;
+  border: 3px solid #06b68a;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+}
+.second-section-blog-permis-a2 h1 {
+  color: #c10058;
+  text-align: center;
+}
+.second-section-blog-permis-a2 h2 {
+  color: #c10058;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.second-section-blog-permis-a2 p {
+  font-size: 16px;
+}
+.second-section-blog-permis-a2 .big-p1 {
+  margin-top: 40px;
+}
+.second-section-blog-permis-a2 .first-p div {
+  margin-top: 15px;
+}
+.second-section-blog-permis-a2 .first-p div p:nth-child(1) {
+  font-weight: bold;
+}
+.second-section-blog-permis-a2 .first-p div p:nth-child(2) {
+  margin-top: 5px;
+  margin-left: 12px;
+}
+.second-section-blog-permis-a2 .second-p {
+  margin-top: 40px;
+}
+.second-section-blog-permis-a2 .second-p div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.second-section-blog-permis-a2 .second-p div p {
+  font-weight: bold;
+}
+.second-section-blog-permis-a2 .three-p {
+  margin-top: 40px;
+}
+.second-section-blog-permis-a2 .three-p div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.second-section-blog-permis-a2 .three-p div p {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .first-section-blog-permis-a2 {
+    background-position: 0;
+    background-position-x: -100px;
+    text-align: center;
+  }
+  .second-section-blog-permis-a2 {
+    width: 90% !important;
+  }
+}
 .container-mention-legales {
   width: 80%;
   margin: auto;
@@ -2312,6 +2413,9 @@ footer .content .footer-galerie .image-container .row img:hover {
 }
 
 @media screen and (max-width: 900px) {
+  header {
+    position: fixed header relative;
+  }
   header .nav-desktop {
     display: none !important;
   }
@@ -2331,9 +2435,9 @@ footer .content .footer-galerie .image-container .row img:hover {
     display: none;
     position: absolute;
     background-color: #fff;
-    width: 420px;
+    width: 100%;
     top: 103px;
-    right: -20px;
+    left: 0;
     font-family: "Lexend";
     flex-direction: column;
     align-items: flex-start;

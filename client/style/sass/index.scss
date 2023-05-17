@@ -25,11 +25,22 @@ button {
 @import './Pages/moto-ecoles/detail-motoecole.scss';
 @import './Pages/partners.scss';
 @import './Pages/club-moto.scss';
+
+// stages
+
 @import './Pages/stages/stage-moto-a2.scss';
 @import './Pages/stages/stage-125-accel-1j.scss';
 @import './Pages/stages/stage-am-accel-2j.scss';
 @import './Pages/stages/stage-moto-accel-3j.scss';
 @import './Pages/stages/stage-passerelle.scss';
+
+// blog
+
+@import './Pages/blog/permis-a2.scss';
+
+
+// footer
+
 @import './Pages/footer/mention-legales.scss';
 @import './Pages/footer/donnees-personelle.scss';
 @import './Pages/footer/condition-ventes.scss';
