@@ -81,7 +81,7 @@
         align-items: center;
         padding: 10px;
         color: #fff;
-        justify-content: space-between;
+        justify-content: space-around;
 
         p {
           text-align: left;
@@ -89,7 +89,7 @@
           font-size: 20px;
         }
 
-        p:nth-child(2) {
+        p:nth-child(1) {
           font-size: 50px;
 
           span {

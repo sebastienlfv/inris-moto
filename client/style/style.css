@@ -1676,17 +1676,17 @@ footer .content .footer-galerie .image-container .row img:hover {
   align-items: center;
   padding: 10px;
   color: #fff;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .second-section-stage-moto-a2 .right .top .top-left p {
   text-align: left;
   margin-top: 0;
   font-size: 20px;
 }
-.second-section-stage-moto-a2 .right .top .top-left p:nth-child(2) {
+.second-section-stage-moto-a2 .right .top .top-left p:nth-child(1) {
   font-size: 50px;
 }
-.second-section-stage-moto-a2 .right .top .top-left p:nth-child(2) span {
+.second-section-stage-moto-a2 .right .top .top-left p:nth-child(1) span {
   font-size: 20px;
 }
 .second-section-stage-moto-a2 .right .top .top-right {
