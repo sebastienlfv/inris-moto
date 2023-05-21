@@ -149,9 +149,8 @@ header .burger-mobile {
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
-}
-.header-container .separator-container button:hover {
-  background-color: #28C49D;
+  border-radius: 50px;
+  border: 3px solid #28C49D;
 }
 .header-container .separator-container button a {
   color: #fff;
@@ -196,9 +195,8 @@ main .first-section-home .container button {
   cursor: pointer;
   transition: 0.3s;
   margin-top: 40px;
-}
-main .first-section-home .container button:hover {
-  background-color: #28C49D;
+  border-radius: 50px;
+  border: 3px solid #28C49D;
 }
 main .first-section-home .case-container {
   margin-top: 100px;
@@ -1621,6 +1619,10 @@ footer .content .footer-galerie .image-container .row img:hover {
   justify-content: space-between;
   padding-bottom: 50px;
 }
+.second-section-stage-moto-a2 img {
+  width: 40px;
+  margin-right: 20px;
+}
 .second-section-stage-moto-a2 p {
   line-height: 35px;
   margin-top: 20px;
@@ -1654,12 +1656,11 @@ footer .content .footer-galerie .image-container .row img:hover {
   font-size: 18px;
   border: none;
   transition: 0.3s;
+  border: 3px solid #28C49D;
+  border-radius: 50px;
 }
 .second-section-stage-moto-a2 .right button a {
   color: #fff;
-}
-.second-section-stage-moto-a2 .right button:hover {
-  background-color: #28C49D;
 }
 .second-section-stage-moto-a2 .right .top {
   display: flex;
@@ -1713,7 +1714,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   align-items: center;
   width: 300px;
   color: #fff;
-  background-color: #161616;
+  background-color: #1F3149;
   border: #525252 solid 1px;
   padding: 20px;
 }
@@ -1738,7 +1739,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   align-items: center;
   width: 300px;
   color: #fff;
-  background-color: #161616;
+  background-color: #1F3149;
   border: #525252 solid 1px;
   padding: 20px;
 }

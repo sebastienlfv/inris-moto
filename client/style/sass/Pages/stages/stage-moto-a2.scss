@@ -21,6 +21,11 @@
   justify-content: space-between;
   padding-bottom: 50px;
 
+  img {
+    width: 40px;
+    margin-right: 20px;
+  }
+
   p {
     // width: 80%;
     line-height: 35px;
@@ -57,13 +62,11 @@
       font-size: 18px;
       border: none;
       transition: 0.3s;
+      border: 3px solid #28C49D;
+      border-radius: 50px;
 
       a {
         color: #fff
-      }
-
-      &:hover {
-        background-color: #28C49D;
       }
     }
 
@@ -127,7 +130,7 @@
           align-items: center;
           width: 300px;
           color: #fff;
-          background-color: #161616;
+          background-color: #1F3149;
           border: #525252 solid 1px;
           padding: 20px;
 
@@ -158,7 +161,7 @@
           align-items: center;
           width: 300px;
           color: #fff;
-          background-color: #161616;
+          background-color: #1F3149;
           border: #525252 solid 1px;
           padding: 20px;
 
