@@ -23,6 +23,27 @@ button {
   cursor: pointer
 }
 
+.global-button-cta {
+  font-family: 'Lexend';
+  background-color: #00e5ac;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 40px;
+  border-radius: 50px;
+  border: 3px solid #28C49D;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 270px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
 @import './Pages/home.scss';
 @import './Pages/moto-ecole.scss';
 @import './Pages/about.scss';

@@ -62,12 +62,21 @@
   .first-section-home {
     background-position: -150px !important;
 
+    button {
+      display: none;
+    }
+
     .container {
       padding: 10px !important;
       width: auto !important;
 
       p {
-        font-size: 30px !important;
+        font-size: 28px !important;
+        margin-top: 120px !important;
+
+        span {
+          font-size: 28px !important;
+        }
       }
 
       .case-container {

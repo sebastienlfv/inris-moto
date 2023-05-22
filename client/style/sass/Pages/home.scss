@@ -171,7 +171,6 @@ main {
 
     .container {
       padding: 50px;
-      width: 43%;
       font-family: 'Lexend';
 
       a {
@@ -246,10 +245,12 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #a7a7a7;
         font-family: 'Lexend';
         gap: 10px;
         font-size: 16px;
+        width: 80%;
+        margin: auto;
+        font-weight: bold;
 
         span {
           width: 3px;
@@ -756,7 +757,7 @@ main {
   .six-section-home {
     background-color: #f4f1f1;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     .container {
       width: 80%;
       margin: auto;

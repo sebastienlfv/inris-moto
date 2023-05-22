@@ -21,6 +21,27 @@ button {
   cursor: pointer;
 }
 
+.global-button-cta {
+  font-family: "Lexend";
+  background-color: #00e5ac;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 40px;
+  border-radius: 50px;
+  border: 3px solid #28C49D;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 270px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   overflow-y: scroll;
   scrollbar-width: none; /* pour Firefox */
@@ -171,7 +192,6 @@ main .first-section-home {
 }
 main .first-section-home .container {
   padding: 50px;
-  width: 43%;
   font-family: "Lexend";
 }
 main .first-section-home .container a {
@@ -234,10 +254,12 @@ main .second-section-home .services-write .top-p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #a7a7a7;
   font-family: "Lexend";
   gap: 10px;
   font-size: 16px;
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
 }
 main .second-section-home .services-write .top-p span {
   width: 3px;
@@ -660,7 +682,7 @@ main .five-section-home .blog-details .blog-container-details .readmore i {
 main .six-section-home {
   background-color: #f4f1f1;
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 main .six-section-home .container {
   width: 80%;
@@ -2528,12 +2550,19 @@ footer .content .footer-galerie .image-container .row img:hover {
   .first-section-home {
     background-position: -150px !important;
   }
+  .first-section-home button {
+    display: none;
+  }
   .first-section-home .container {
     padding: 10px !important;
     width: auto !important;
   }
   .first-section-home .container p {
-    font-size: 30px !important;
+    font-size: 28px !important;
+    margin-top: 120px !important;
+  }
+  .first-section-home .container p span {
+    font-size: 28px !important;
   }
   .first-section-home .container .case-container {
     display: none;
