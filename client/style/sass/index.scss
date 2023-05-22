@@ -14,6 +14,11 @@
   src: url('/client/src/font/Lexend-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: 'Montserrat-Italic';
+  src: url('/client/src/font/Montserrat-Italic.ttf');
+}
+
 button {
   cursor: pointer
 }

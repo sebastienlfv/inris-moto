@@ -1,3 +1,10 @@
+@media screen and (max-width: 1600px) {
+  .second-section-stage-moto-a2 {
+    width: 95%;
+  }
+}
+
+
 @media screen and (max-width: 900px) {
   .first-section-stage-moto-a2 {
     background-position: 0;
@@ -7,6 +14,7 @@
 
   .second-section-stage-moto-a2 {
     flex-direction: column;
+    width: 80%;
 
     .right .top .top-right {
       width: 300px;

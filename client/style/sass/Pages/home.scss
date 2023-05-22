@@ -166,26 +166,24 @@ main {
   .first-section-home {
     background-image: url('/client/src/img/motard-route.png');
     background-size: cover;
-    padding-bottom: 400px;
+    height: 400px;
+    background-position: 0px -300px;
 
     .container {
-      padding: 100px;
-      width: 40%;
+      padding: 50px;
+      width: 50%;
       font-family: 'Lexend';
 
       a {
         color: #fff;
       }
 
-      h1 {
-        color: #fff;
-        font-size: 70px;
-      }
-
       p {
         color: #fff;
         font-size: 50px;
         margin-top: 40px;
+        font-family: 'Montserrat-Italic';
+        font-weight: bold;
 
         span {
           color: #00e5ac;
@@ -287,7 +285,7 @@ main {
       margin-top: 40px;
 
       .details {
-        width: 500px;
+        width: 30%;
         height: 600px;
         box-shadow: #eeeeee 0px 10px 15px;
         overflow: hidden;
@@ -331,6 +329,7 @@ main {
             width: 100%;
             height: 100%;
             transition: 0.3s;
+            object-fit: cover;
           }
 
           h2 {
@@ -341,13 +340,11 @@ main {
 
           h2:hover {
             color: #c2075d;
-            width: 80%;
           }
 
           p {
             margin-top: 20px;
             font-size: 16px;
-            width: 80%;
           }
 
           div {
@@ -356,6 +353,10 @@ main {
             background: rgba(0, 0, 0, 0.7);
             margin-bottom: 20px;
             width: 100%;
+
+            h2 {
+              font-size: 18px;
+            }
           }
         }
 
@@ -908,6 +909,40 @@ main {
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  .seven-section-home {
+    padding-top: 50px;
+    font-family: 'Lexend';
+    padding-bottom: 100px;
+    
+    h2 {
+      text-align: center;
+    }
+
+    .separator {
+      background-color: #00e5ac;
+      border-radius: 50px;
+      width: 200px;
+      height: 3px;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      width: 60%;
+      margin: auto;
+
+      .top, .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+          width: 200px
         }
       }
     }

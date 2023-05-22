@@ -13,6 +13,10 @@
   font-family: "Lexend";
   src: url("/client/src/font/Lexend-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: "Montserrat-Italic";
+  src: url("/client/src/font/Montserrat-Italic.ttf");
+}
 button {
   cursor: pointer;
 }
@@ -162,24 +166,23 @@ main {
 main .first-section-home {
   background-image: url("/client/src/img/motard-route.png");
   background-size: cover;
-  padding-bottom: 400px;
+  height: 400px;
+  background-position: 0px -300px;
 }
 main .first-section-home .container {
-  padding: 100px;
-  width: 40%;
+  padding: 50px;
+  width: 50%;
   font-family: "Lexend";
 }
 main .first-section-home .container a {
   color: #fff;
 }
-main .first-section-home .container h1 {
-  color: #fff;
-  font-size: 70px;
-}
 main .first-section-home .container p {
   color: #fff;
   font-size: 50px;
   margin-top: 40px;
+  font-family: "Montserrat-Italic";
+  font-weight: bold;
 }
 main .first-section-home .container p span {
   color: #00e5ac;
@@ -265,7 +268,7 @@ main .second-section-home .service-details {
   margin-top: 40px;
 }
 main .second-section-home .service-details .details {
-  width: 500px;
+  width: 30%;
   height: 600px;
   box-shadow: #eeeeee 0px 10px 15px;
   overflow: hidden;
@@ -302,6 +305,7 @@ main .second-section-home .service-details .details .info-details img {
   width: 100%;
   height: 100%;
   transition: 0.3s;
+  object-fit: cover;
 }
 main .second-section-home .service-details .details .info-details h2 {
   font-size: 20px;
@@ -310,12 +314,10 @@ main .second-section-home .service-details .details .info-details h2 {
 }
 main .second-section-home .service-details .details .info-details h2:hover {
   color: #c2075d;
-  width: 80%;
 }
 main .second-section-home .service-details .details .info-details p {
   margin-top: 20px;
   font-size: 16px;
-  width: 80%;
 }
 main .second-section-home .service-details .details .info-details div {
   position: absolute;
@@ -323,6 +325,9 @@ main .second-section-home .service-details .details .info-details div {
   background: rgba(0, 0, 0, 0.7);
   margin-bottom: 20px;
   width: 100%;
+}
+main .second-section-home .service-details .details .info-details div h2 {
+  font-size: 18px;
 }
 main .second-section-home .service-details .details .readmore {
   display: flex;
@@ -792,6 +797,35 @@ main .six-section-home .price-details .detail-container .detail div div p {
 main .six-section-home .price-details .detail-container .detail div div p:nth-child(2) {
   margin-top: 10px;
 }
+main .seven-section-home {
+  padding-top: 50px;
+  font-family: "Lexend";
+  padding-bottom: 100px;
+}
+main .seven-section-home h2 {
+  text-align: center;
+}
+main .seven-section-home .separator {
+  background-color: #00e5ac;
+  border-radius: 50px;
+  width: 200px;
+  height: 3px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .seven-section-home .container {
+  width: 60%;
+  margin: auto;
+}
+main .seven-section-home .container .top, main .seven-section-home .container .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .seven-section-home .container .top img, main .seven-section-home .container .bottom img {
+  width: 200px;
+}
 
 footer {
   height: 500px;
@@ -983,6 +1017,10 @@ footer .content .footer-galerie .image-container .row img:hover {
   padding: 10px 40px;
 }
 
+.second-section-motoecole .auto-ecole-inris-details .auto-ecole-inris-details-right-border {
+  display: none !important;
+}
+
 .second-section-motoecole {
   background-color: #eff2ff;
   padding: 50px;
@@ -1079,6 +1117,7 @@ footer .content .footer-galerie .image-container .row img:hover {
 }
 .second-section-about .contain-about img {
   width: 500px;
+  object-fit: cover;
 }
 .second-section-about .contain-about .detail {
   width: 50%;
@@ -1096,6 +1135,7 @@ footer .content .footer-galerie .image-container .row img:hover {
 .second-section-about .contain-about .detail-formation p {
   line-height: normal;
   margin-top: 10px;
+  line-height: 30px;
 }
 .second-section-about .contain-about .detail-formation p span {
   font-weight: bold;
@@ -1515,7 +1555,7 @@ footer .content .footer-galerie .image-container .row img:hover {
 }
 .second-section-partenaire p {
   width: 70%;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 40px;
 }
 .second-section-partenaire .left button {
@@ -1567,7 +1607,7 @@ footer .content .footer-galerie .image-container .row img:hover {
 }
 .second-section-club-moto p {
   width: 70%;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 40px;
   margin-top: 20px;
 }
@@ -1612,7 +1652,7 @@ footer .content .footer-galerie .image-container .row img:hover {
 
 .second-section-stage-moto-a2 {
   font-family: "Lexend";
-  width: 70%;
+  width: 80%;
   margin: auto;
   padding-top: 50px;
   display: flex;
@@ -1645,7 +1685,6 @@ footer .content .footer-galerie .image-container .row img:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
 }
 .second-section-stage-moto-a2 .right button {
   background-color: #00e5ac;
@@ -1664,7 +1703,7 @@ footer .content .footer-galerie .image-container .row img:hover {
 }
 .second-section-stage-moto-a2 .right .top {
   display: flex;
-  width: 650px;
+  width: 600px;
   justify-content: space-between;
 }
 .second-section-stage-moto-a2 .right .top .top-left {
@@ -1703,7 +1742,7 @@ footer .content .footer-galerie .image-container .row img:hover {
 .second-section-stage-moto-a2 .right .bottom {
   display: flex;
   flex-direction: column;
-  width: 650px;
+  width: 600px;
   margin-top: 40px;
 }
 .second-section-stage-moto-a2 .right .bottom .top-bottom {
@@ -2242,7 +2281,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   margin-top: 20px;
 }
 
-.first-section-blog-permis-a2 {
+.first-section-blog-permis-a2-1 {
   height: 400px;
   display: flex;
   align-items: center;
@@ -2250,9 +2289,37 @@ footer .content .footer-galerie .image-container .row img:hover {
   font-family: "Lexend";
   font-size: 30px;
   font-weight: bold;
-  background-image: url("/client/src/img/harley-davidson-02tt7EvQKhw-unsplash.jpg");
+  background-image: url("/client/src/img/kevin-oetiker-wIniQ8GtFps-unsplash.jpg");
   background-size: cover;
   background-position: 0px -300px;
+  color: #fff;
+}
+
+.first-section-blog-permis-a2-2 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/alexey-malakhov-LZVkAbIw74Q-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.first-section-blog-permis-a2-3 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend";
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("/client/src/img/harley-davidson-eeTJKC_wz34-unsplash.jpg");
+  background-size: cover;
+  background-position: 0px -500px;
   color: #fff;
 }
 
@@ -2459,7 +2526,7 @@ footer .content .footer-galerie .image-container .row img:hover {
     padding-top: 100px;
   }
   .first-section-home {
-    padding-bottom: 200px !important;
+    background-position: -150px !important;
   }
   .first-section-home .container {
     padding: 10px !important;
@@ -2470,6 +2537,9 @@ footer .content .footer-galerie .image-container .row img:hover {
   }
   .first-section-home .container .case-container {
     display: none;
+  }
+  .second-section-home .services-write .top-p {
+    font-size: 14px !important;
   }
   .second-section-home .services-write {
     margin-top: 50px !important;
@@ -2490,6 +2560,9 @@ footer .content .footer-galerie .image-container .row img:hover {
     margin-top: 20px;
     height: 440px !important;
   }
+  .second-section-home .service-details .details .readmore p {
+    font-size: 14px;
+  }
   .second-section-home .service-details .details .info-details {
     height: 400px !important;
   }
@@ -2498,6 +2571,9 @@ footer .content .footer-galerie .image-container .row img:hover {
   }
   .second-section-home .service-details .details .info-details div p {
     width: auto;
+  }
+  .second-section-home .service-details .details .info-details div h2 {
+    font-size: 16px !important;
   }
   .three-section-home .container {
     width: auto !important;
@@ -2533,7 +2609,7 @@ footer .content .footer-galerie .image-container .row img:hover {
     width: 80% !important;
     font-size: 18px !important;
   }
-  .four-section-home .gallery-details div:nth-child(1) {
+  .four-section-home .gallery-details div:nth-child(2) {
     display: none;
   }
   .four-section-home .gallery-details div {
@@ -2566,8 +2642,21 @@ footer .content .footer-galerie .image-container .row img:hover {
     width: 300px !important;
     height: 300px !important;
   }
+  .six-section-home .price-details .detail-container .detail div div p {
+    font-size: 16px !important;
+  }
+  .six-section-home .price-details .detail-container .detail .p-detail {
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
+  }
+  .six-section-home .price-details .detail-container .detail a {
+    margin-top: 10px !important;
+  }
   .six-section-home .price-details {
     flex-direction: column;
+  }
+  .six-section-home .price-details .detail-container .detail {
+    justify-content: normal !important;
   }
   .six-section-home .price-details .container-details-price {
     width: auto !important;
@@ -2578,6 +2667,10 @@ footer .content .footer-galerie .image-container .row img:hover {
   }
   .six-section-home .price-details .container-details-price .detail {
     width: 400px !important;
+  }
+  .seven-section-home .top, .seven-section-home .bottom {
+    flex-direction: column;
+    gap: 30px;
   }
   footer {
     height: 100%;
@@ -2719,7 +2812,10 @@ footer .content .footer-galerie .image-container .row img:hover {
     margin-bottom: 40px;
   }
   .second-section-partenaire .groupe-partners {
-    width: 380px;
+    width: 340px;
+  }
+  .second-section-partenaire .speedway {
+    width: 300px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -2791,6 +2887,26 @@ footer .content .footer-galerie .image-container .row img:hover {
     width: 300px !important;
     height: 300px !important;
   }
+  .first-section-blog-permis-a2-1 {
+    background-position: 0;
+    background-position-x: -100px;
+    text-align: center;
+  }
+  .first-section-blog-permis-a2-3 {
+    background-position: 100px;
+    background-position-x: -100px;
+    text-align: center;
+  }
+  .first-section-blog-permis-a2-2 {
+    background-position: 100px;
+    background-position-x: -100px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .second-section-stage-moto-a2 {
+    width: 95%;
+  }
 }
 @media screen and (max-width: 900px) {
   .first-section-stage-moto-a2 {
@@ -2800,6 +2916,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   }
   .second-section-stage-moto-a2 {
     flex-direction: column;
+    width: 80%;
   }
   .second-section-stage-moto-a2 .right .top .top-right {
     width: 300px;

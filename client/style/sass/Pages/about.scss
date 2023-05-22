@@ -24,6 +24,7 @@
 
     img {
       width: 500px;
+      object-fit: cover;
     }
 
     .detail {
@@ -45,6 +46,7 @@
         p {
           line-height: normal;
           margin-top: 10px;
+          line-height: 30px;
 
           span {
             font-weight: bold;
