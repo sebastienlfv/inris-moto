@@ -937,40 +937,6 @@ main {
       }
     }
   }
-
-  .seven-section-home {
-    padding-top: 50px;
-    font-family: 'Lexend';
-    padding-bottom: 100px;
-    
-    h2 {
-      text-align: center;
-    }
-
-    .separator {
-      background-color: #00e5ac;
-      border-radius: 50px;
-      width: 200px;
-      height: 3px;
-      margin: auto;
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-
-    .container {
-      width: 80%;
-      margin: auto;
-
-      .top, .bottom {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        img{
-          width: 150px;
-        }
-      }
-    }
-  }
 }
 
 footer {

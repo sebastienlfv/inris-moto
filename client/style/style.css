@@ -21,6 +21,7 @@ button {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .button-detail-mobile {
   font-family: "Lexend";
   background-color: #ffffff;
@@ -40,6 +41,8 @@ button {
   align-items: center;
 }
 
+=======
+>>>>>>> 044c386f659dc50bd331666d04f1d641e16688a0
 .global-button-cta {
   font-family: "Lexend";
   background-color: #00e5ac;
@@ -873,7 +876,11 @@ main .seven-section-home .separator {
   margin-bottom: 30px;
 }
 main .seven-section-home .container {
+<<<<<<< HEAD
   width: 80%;
+=======
+  width: 60%;
+>>>>>>> 044c386f659dc50bd331666d04f1d641e16688a0
   margin: auto;
 }
 main .seven-section-home .container .top, main .seven-section-home .container .bottom {
@@ -882,7 +889,11 @@ main .seven-section-home .container .top, main .seven-section-home .container .b
   justify-content: space-between;
 }
 main .seven-section-home .container .top img, main .seven-section-home .container .bottom img {
+<<<<<<< HEAD
   width: 150px;
+=======
+  width: 200px;
+>>>>>>> 044c386f659dc50bd331666d04f1d641e16688a0
 }
 
 footer {
@@ -2733,12 +2744,17 @@ footer .content .footer-galerie .image-container .row img:hover {
   .six-section-home .price-details {
     flex-direction: column;
   }
+<<<<<<< HEAD
   .six-section-home .price-details .detail-container {
     flex-direction: column;
   }
   .six-section-home .price-details .detail-container .detail {
     justify-content: normal !important;
     display: none !important;
+=======
+  .six-section-home .price-details .detail-container .detail {
+    justify-content: normal !important;
+>>>>>>> 044c386f659dc50bd331666d04f1d641e16688a0
   }
   .six-section-home .price-details .container-details-price {
     width: auto !important;

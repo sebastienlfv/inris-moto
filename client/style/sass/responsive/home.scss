@@ -255,15 +255,6 @@
     .price-details {
       flex-direction: column;
 
-      .detail-container {
-        flex-direction: column;
-      }
-
-      .detail-container .detail {
-        justify-content: normal !important;
-        display: none !important;
-      }
-
       .container-details-price {
         width: auto !important;
         margin-top: 20px;
