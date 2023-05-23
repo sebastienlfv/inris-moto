@@ -1,5 +1,10 @@
 @media screen and (max-width: 900px) {
 
+  .button-detail-mobile {
+    display: flex;
+  }
+
+
   header {
     position: fixed & relative;
     .nav-desktop {
@@ -49,7 +54,7 @@
         }
 
         a {
-          color: #000;
+          color: #1F3149;
         }
       }
     }
@@ -60,13 +65,23 @@
   }
 
   .first-section-home {
-    padding-bottom: 200px !important;
+    background-position: -150px !important;
+
+    button {
+      display: none;
+    }
+
     .container {
       padding: 10px !important;
       width: auto !important;
 
       p {
-        font-size: 30px !important;
+        font-size: 28px !important;
+        margin-top: 120px !important;
+
+        span {
+          font-size: 28px !important;
+        }
       }
 
       .case-container {
@@ -76,6 +91,11 @@
   }
 
   .second-section-home {
+
+    .services-write .top-p {
+      font-size: 14px !important;
+    } 
+
     .services-write {
       margin-top: 50px !important;
 
@@ -98,6 +118,10 @@
         margin-top: 20px;
         height: 440px !important;
 
+        .readmore p {
+          font-size: 14px;
+        }
+
         .info-details {
           height: 400px !important;
 
@@ -106,6 +130,11 @@
 
             p {
               width: auto;
+            }
+
+            h2 {
+              font-size: 16px !important;
+              width: 100%;
             }
           }
         }
@@ -161,7 +190,7 @@
     }
 
     .gallery-details {
-      div:nth-child(1) {
+      div:nth-child(2) {
         display: none;
       }
 
@@ -208,8 +237,32 @@
   }
 
   .six-section-home {
+    
+
+    .price-details .detail-container .detail div div p {
+      font-size: 16px !important;
+    }
+
+    .price-details .detail-container .detail .p-detail {
+      font-size: 16px !important;
+      margin-bottom: 0 !important;
+    }
+
+    .price-details .detail-container .detail a {
+      margin-top: 10px !important;
+    }
+
     .price-details {
       flex-direction: column;
+
+      .detail-container {
+        flex-direction: column;
+      }
+
+      .detail-container .detail {
+        justify-content: normal !important;
+        display: none !important;
+      }
 
       .container-details-price {
         width: auto !important;
@@ -223,6 +276,13 @@
           width: 400px !important;
         }
       }
+    }
+  }
+
+  .seven-section-home {
+    .top, .bottom {
+      flex-direction: column;
+      gap: 30px;
     }
   }
 

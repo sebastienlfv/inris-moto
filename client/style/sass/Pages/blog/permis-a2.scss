@@ -1,4 +1,4 @@
-.first-section-blog-permis-a2 {
+.first-section-blog-permis-a2-1 {
   height: 400px;
   display: flex;
   align-items: center;
@@ -6,9 +6,37 @@
   font-family: 'Lexend';
   font-size: 30px;
   font-weight: bold;
-  background-image: url('/client/src/img/harley-davidson-02tt7EvQKhw-unsplash.jpg');
+  background-image: url('/client/src/img/kevin-oetiker-wIniQ8GtFps-unsplash.jpg');
   background-size: cover;
   background-position: 0px -300px;
+  color: #fff;
+}
+
+.first-section-blog-permis-a2-2 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lexend';
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url('/client/src/img/alexey-malakhov-LZVkAbIw74Q-unsplash.jpg');
+  background-size: cover;
+  background-position: 0px -300px;
+  color: #fff;
+}
+
+.first-section-blog-permis-a2-3 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lexend';
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url('/client/src/img/harley-davidson-eeTJKC_wz34-unsplash.jpg');
+  background-size: cover;
+  background-position: 0px -500px;
   color: #fff;
 }
 
@@ -50,6 +78,7 @@
 
   p {
     font-size: 16px;
+    color: #1F3149;
   }
 
   .big-p1 {

@@ -14,8 +14,53 @@
   src: url('/client/src/font/Lexend-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: 'Montserrat-Italic';
+  src: url('/client/src/font/Montserrat-Italic.ttf');
+}
+
 button {
   cursor: pointer
+}
+
+.button-detail-mobile {
+  font-family: 'Lexend';
+  background-color: #ffffff;
+  border: none;
+  color: #1F3149;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 40px;
+  display: none;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 240px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.global-button-cta{
+  font-family: 'Lexend';
+  background-color: #00e5ac;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 40px;
+  border-radius: 50px;
+  border: 3px solid #28C49D;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 270px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
 }
 
 @import './Pages/home.scss';

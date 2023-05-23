@@ -108,7 +108,7 @@ header {
         i {
           transition: 0.3s;
           transform: rotate(90deg);
-          color: #000;
+          color: #1F3149;
         }
       }
     }
@@ -121,7 +121,7 @@ header {
 
     a {
       font-family: 'Lexend';
-      color: #000;
+      color: #1F3149;
       font-size: 16px;
       transition: 0.3s;
 
@@ -162,30 +162,28 @@ header {
 
 main {
   padding-top: 112px;
+  color: #1F3149;
 
   .first-section-home {
     background-image: url('/client/src/img/motard-route.png');
     background-size: cover;
-    padding-bottom: 400px;
+    height: 400px;
+    background-position: 0px -300px;
 
     .container {
-      padding: 100px;
-      width: 40%;
+      padding: 50px;
       font-family: 'Lexend';
 
       a {
         color: #fff;
       }
 
-      h1 {
-        color: #fff;
-        font-size: 70px;
-      }
-
       p {
         color: #fff;
         font-size: 50px;
         margin-top: 40px;
+        font-family: 'Montserrat-Italic';
+        font-weight: bold;
 
         span {
           color: #00e5ac;
@@ -248,10 +246,12 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #a7a7a7;
         font-family: 'Lexend';
         gap: 10px;
         font-size: 16px;
+        width: 80%;
+        margin: auto;
+        font-weight: bold;
 
         span {
           width: 3px;
@@ -287,7 +287,7 @@ main {
       margin-top: 40px;
 
       .details {
-        width: 500px;
+        width: 30%;
         height: 600px;
         box-shadow: #eeeeee 0px 10px 15px;
         overflow: hidden;
@@ -331,23 +331,23 @@ main {
             width: 100%;
             height: 100%;
             transition: 0.3s;
+            object-fit: cover;
           }
 
           h2 {
             font-size: 20px;
             cursor: pointer;
             transition: 0.3s;
+            width: 60%;
           }
 
           h2:hover {
             color: #c2075d;
-            width: 80%;
           }
 
           p {
             margin-top: 20px;
             font-size: 16px;
-            width: 80%;
           }
 
           div {
@@ -356,6 +356,10 @@ main {
             background: rgba(0, 0, 0, 0.7);
             margin-bottom: 20px;
             width: 100%;
+
+            h2 {
+              font-size: 18px;
+            }
           }
         }
 
@@ -755,7 +759,7 @@ main {
   .six-section-home {
     background-color: #f4f1f1;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     .container {
       width: 80%;
       margin: auto;
@@ -823,10 +827,30 @@ main {
       display: flex;
       justify-content: space-between;
 
+      .stage-a2 {
+        background-image: url('/client/src/img/stages/a2_vers_a.jpg');
+      }
+
+      .stage-a2-a {
+        background-image: url('/client/src/img/stages/unnamed\ \(2\).jpg');
+      }
+
+      .stage-125 {
+        background-image: url('/client/src/img/stages/125cm3.jpg');
+      }
+
+      .stage-am {
+        background-image: url('/client/src/img/stages/unnamed.jpg');
+      }
+
+      .stage-circuit-prive {
+        background-image: url('/client/src/img/stages/circuit-prive.jpg');
+      }
+
       .detail-container {
         display: flex;
         justify-content: space-between;
-        background-image: url('/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg');
+        // background-image: url('/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg');
         background-size: cover;
         height: 400px;
 
@@ -843,6 +867,7 @@ main {
 
           p {
             font-size: 30px;
+            font-weight: bold;
           }
         }
 
@@ -908,6 +933,40 @@ main {
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  .seven-section-home {
+    padding-top: 50px;
+    font-family: 'Lexend';
+    padding-bottom: 100px;
+    
+    h2 {
+      text-align: center;
+    }
+
+    .separator {
+      background-color: #00e5ac;
+      border-radius: 50px;
+      width: 200px;
+      height: 3px;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+
+      .top, .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+          width: 150px;
         }
       }
     }
