@@ -21,6 +21,10 @@ button {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
 .button-detail-mobile {
   font-family: "Lexend";
   background-color: #ffffff;
@@ -40,6 +44,11 @@ button {
   align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 044c386f659dc50bd331666d04f1d641e16688a0
+>>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
 .global-button-cta {
   font-family: "Lexend";
   background-color: #00e5ac;
@@ -764,9 +773,12 @@ main .six-section-home .price-details {
   display: flex;
   justify-content: space-between;
 }
+<<<<<<< HEAD
 main .six-section-home .price-details .stage-a2-3j-accel {
   background-image: url("/client/src/img/stages/stage-moto-a2-3j.jpg");
 }
+=======
+>>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
 main .six-section-home .price-details .stage-a2 {
   background-image: url("/client/src/img/stages/a2_vers_a.jpg");
 }
@@ -876,7 +888,15 @@ main .seven-section-home .separator {
   margin-bottom: 30px;
 }
 main .seven-section-home .container {
+<<<<<<< HEAD
   width: 80%;
+=======
+<<<<<<< HEAD
+  width: 80%;
+=======
+  width: 60%;
+>>>>>>> 044c386f659dc50bd331666d04f1d641e16688a0
+>>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
   margin: auto;
 }
 main .seven-section-home .container .top, main .seven-section-home .container .bottom {
@@ -885,6 +905,7 @@ main .seven-section-home .container .top, main .seven-section-home .container .b
   justify-content: space-between;
 }
 main .seven-section-home .container .top img, main .seven-section-home .container .bottom img {
+<<<<<<< HEAD
   width: 150px;
 }
 main .temoignage-section {
@@ -926,6 +947,13 @@ main .temoignage-section .temoignage-container .content iframe {
   width: 600px;
   height: 300px;
   margin-bottom: 40px;
+=======
+<<<<<<< HEAD
+  width: 150px;
+=======
+  width: 200px;
+>>>>>>> 044c386f659dc50bd331666d04f1d641e16688a0
+>>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
 }
 
 footer {
@@ -2776,12 +2804,23 @@ footer .content .footer-galerie .image-container .row img:hover {
   .six-section-home .price-details {
     flex-direction: column;
   }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
   .six-section-home .price-details .detail-container {
     flex-direction: column;
   }
   .six-section-home .price-details .detail-container .detail {
     justify-content: normal !important;
     display: none !important;
+<<<<<<< HEAD
+=======
+=======
+  .six-section-home .price-details .detail-container .detail {
+    justify-content: normal !important;
+>>>>>>> 044c386f659dc50bd331666d04f1d641e16688a0
+>>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
   }
   .six-section-home .price-details .container-details-price {
     width: auto !important;
