@@ -23,7 +23,26 @@ button {
   cursor: pointer
 }
 
-.global-button-cta {
+.button-detail-mobile {
+  font-family: 'Lexend';
+  background-color: #ffffff;
+  border: none;
+  color: #1F3149;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 40px;
+  display: none;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 240px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.global-button-cta{
   font-family: 'Lexend';
   background-color: #00e5ac;
   border: none;

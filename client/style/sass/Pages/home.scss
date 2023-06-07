@@ -108,7 +108,7 @@ header {
         i {
           transition: 0.3s;
           transform: rotate(90deg);
-          color: #000;
+          color: #1F3149;
         }
       }
     }
@@ -121,7 +121,7 @@ header {
 
     a {
       font-family: 'Lexend';
-      color: #000;
+      color: #1F3149;
       font-size: 16px;
       transition: 0.3s;
 
@@ -162,6 +162,7 @@ header {
 
 main {
   padding-top: 112px;
+  color: #1F3149;
 
   .first-section-home {
     background-image: url('/client/src/img/motard-route.png');
@@ -826,10 +827,34 @@ main {
       display: flex;
       justify-content: space-between;
 
+      .stage-a2-3j-accel {
+        background-image: url("/client/src/img/stages/stage-moto-a2-3j.jpg");
+      }
+
+      .stage-a2 {
+        background-image: url('/client/src/img/stages/a2_vers_a.jpg');
+      }
+
+      .stage-a2-a {
+        background-image: url('/client/src/img/stages/unnamed\ \(2\).jpg');
+      }
+
+      .stage-125 {
+        background-image: url('/client/src/img/stages/125cm3.jpg');
+      }
+
+      .stage-am {
+        background-image: url('/client/src/img/stages/unnamed.jpg');
+      }
+
+      .stage-circuit-prive {
+        background-image: url('/client/src/img/stages/circuit-prive.jpg');
+      }
+
       .detail-container {
         display: flex;
         justify-content: space-between;
-        background-image: url('/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg');
+        // background-image: url('/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg');
         background-size: cover;
         height: 400px;
 
@@ -846,6 +871,7 @@ main {
 
           p {
             font-size: 30px;
+            font-weight: bold;
           }
         }
 
@@ -936,7 +962,7 @@ main {
     }
 
     .container {
-      width: 60%;
+      width: 80%;
       margin: auto;
 
       .top, .bottom {
@@ -944,7 +970,57 @@ main {
         align-items: center;
         justify-content: space-between;
         img{
-          width: 200px
+          width: 150px;
+        }
+      }
+    }
+  }
+
+  .temoignage-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend';
+    padding-top: 50px;
+
+    .separator-temoignage {
+      background-color: #00e5ac;
+      width: 200px;
+      height: 3px;
+      border-radius: 50px;
+      margin: auto;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .note-opinion-system {
+      margin-top: 20px;
+      font-size: 25px;
+      color: #00e5ac;
+      margin-bottom: 20px;
+
+      span {
+        font-size: 20px;
+        color: #6d6d6d;
+      }
+    }
+
+    .temoignage-container {
+      .content {
+        text-align: center;
+
+        p {
+          margin-bottom: 20px;
+        }
+
+        iframe {
+          width: 600px;
+          height: 300px;
+          margin-bottom: 40px;
         }
       }
     }

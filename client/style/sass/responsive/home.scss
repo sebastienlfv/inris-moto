@@ -1,5 +1,10 @@
 @media screen and (max-width: 900px) {
 
+  .button-detail-mobile {
+    display: flex;
+  }
+
+
   header {
     position: fixed & relative;
     .nav-desktop {
@@ -49,7 +54,7 @@
         }
 
         a {
-          color: #000;
+          color: #1F3149;
         }
       }
     }
@@ -250,10 +255,13 @@
     .price-details {
       flex-direction: column;
 
-      
+      .detail-container {
+        flex-direction: column;
+      }
 
       .detail-container .detail {
         justify-content: normal !important;
+        display: none !important;
       }
 
       .container-details-price {

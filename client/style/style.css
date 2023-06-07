@@ -21,6 +21,25 @@ button {
   cursor: pointer;
 }
 
+.button-detail-mobile {
+  font-family: "Lexend";
+  background-color: #ffffff;
+  border: none;
+  color: #1F3149;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 40px;
+  display: none;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 240px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
 .global-button-cta {
   font-family: "Lexend";
   background-color: #00e5ac;
@@ -140,7 +159,7 @@ header .burger-mobile {
 .header-container .nav-desktop div:hover i {
   transition: 0.3s;
   transform: rotate(90deg);
-  color: #000;
+  color: #1F3149;
 }
 .header-container .nav-desktop i {
   color: #a6a7ab;
@@ -149,7 +168,7 @@ header .burger-mobile {
 }
 .header-container .nav-desktop a {
   font-family: "Lexend";
-  color: #000;
+  color: #1F3149;
   font-size: 16px;
   transition: 0.3s;
 }
@@ -183,6 +202,7 @@ header .burger-mobile {
 
 main {
   padding-top: 112px;
+  color: #1F3149;
 }
 main .first-section-home {
   background-image: url("/client/src/img/motard-route.png");
@@ -744,10 +764,27 @@ main .six-section-home .price-details {
   display: flex;
   justify-content: space-between;
 }
+main .six-section-home .price-details .stage-a2-3j-accel {
+  background-image: url("/client/src/img/stages/stage-moto-a2-3j.jpg");
+}
+main .six-section-home .price-details .stage-a2 {
+  background-image: url("/client/src/img/stages/a2_vers_a.jpg");
+}
+main .six-section-home .price-details .stage-a2-a {
+  background-image: url("/client/src/img/stages/unnamed (2).jpg");
+}
+main .six-section-home .price-details .stage-125 {
+  background-image: url("/client/src/img/stages/125cm3.jpg");
+}
+main .six-section-home .price-details .stage-am {
+  background-image: url("/client/src/img/stages/unnamed.jpg");
+}
+main .six-section-home .price-details .stage-circuit-prive {
+  background-image: url("/client/src/img/stages/circuit-prive.jpg");
+}
 main .six-section-home .price-details .detail-container {
   display: flex;
   justify-content: space-between;
-  background-image: url("/client/src/img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
   background-size: cover;
   height: 400px;
 }
@@ -764,6 +801,7 @@ main .six-section-home .price-details .detail-container .price {
 }
 main .six-section-home .price-details .detail-container .price p {
   font-size: 30px;
+  font-weight: bold;
 }
 main .six-section-home .price-details .detail-container .detail {
   display: flex;
@@ -838,7 +876,7 @@ main .seven-section-home .separator {
   margin-bottom: 30px;
 }
 main .seven-section-home .container {
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 main .seven-section-home .container .top, main .seven-section-home .container .bottom {
@@ -847,7 +885,47 @@ main .seven-section-home .container .top, main .seven-section-home .container .b
   justify-content: space-between;
 }
 main .seven-section-home .container .top img, main .seven-section-home .container .bottom img {
+  width: 150px;
+}
+main .temoignage-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend";
+  padding-top: 50px;
+}
+main .temoignage-section .separator-temoignage {
+  background-color: #00e5ac;
   width: 200px;
+  height: 3px;
+  border-radius: 50px;
+  margin: auto;
+  margin: 20px 0;
+}
+main .temoignage-section p {
+  font-size: 20px;
+}
+main .temoignage-section .note-opinion-system {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #00e5ac;
+  margin-bottom: 20px;
+}
+main .temoignage-section .note-opinion-system span {
+  font-size: 20px;
+  color: #6d6d6d;
+}
+main .temoignage-section .temoignage-container .content {
+  text-align: center;
+}
+main .temoignage-section .temoignage-container .content p {
+  margin-bottom: 20px;
+}
+main .temoignage-section .temoignage-container .content iframe {
+  width: 600px;
+  height: 300px;
+  margin-bottom: 40px;
 }
 
 footer {
@@ -1182,7 +1260,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   width: 125px;
 }
 .second-section-about .picto div p {
-  color: #000;
+  color: #1F3149;
   font-family: "Lexend";
   font-weight: bold;
   font-size: 16px;
@@ -1310,6 +1388,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   background: rgb(40, 27, 89);
   background: linear-gradient(90deg, rgb(40, 27, 89) 0%, rgb(193, 0, 88) 100%);
   font-family: "Lexend";
+  color: #1F3149;
 }
 .first-section-detail-motoecole .detail-motoecole-solo {
   display: flex;
@@ -1338,6 +1417,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   margin: auto;
   font-family: "Lexend";
   padding-bottom: 50px;
+  color: #1F3149;
 }
 .second-section-detail-motoecole h1 {
   text-align: center;
@@ -1441,6 +1521,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   width: 80%;
   margin: auto;
   padding-bottom: 50px;
+  color: #1F3149;
 }
 .three-section-detail-motoecole h1 {
   width: 50%;
@@ -1483,6 +1564,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   width: 80%;
   margin: auto;
   padding-bottom: 50px;
+  color: #1F3149;
 }
 .four-section-detail-motoecole h1 {
   width: 50%;
@@ -1523,6 +1605,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   width: 80%;
   margin: auto;
   padding-bottom: 50px;
+  color: #1F3149;
 }
 .five-section-detail-motoecole h1 {
   width: 50%;
@@ -2381,6 +2464,7 @@ footer .content .footer-galerie .image-container .row img:hover {
 }
 .second-section-blog-permis-a2 p {
   font-size: 16px;
+  color: #1F3149;
 }
 .second-section-blog-permis-a2 .big-p1 {
   margin-top: 40px;
@@ -2436,6 +2520,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   font-family: "Lexend";
   padding-top: 120px;
   padding-bottom: 120px;
+  color: #1F3149;
 }
 .container-mention-legales h1 {
   font-size: 40px;
@@ -2459,6 +2544,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   font-family: "Lexend";
   padding-top: 120px;
   padding-bottom: 120px;
+  color: #1F3149;
 }
 .container-donnees-personnelles h1 {
   font-size: 40px;
@@ -2483,6 +2569,7 @@ footer .content .footer-galerie .image-container .row img:hover {
   font-family: "Lexend";
   padding-top: 120px;
   padding-bottom: 120px;
+  color: #1F3149;
 }
 .container-condition-ventes h1 {
   font-size: 40px;
@@ -2501,6 +2588,9 @@ footer .content .footer-galerie .image-container .row img:hover {
 }
 
 @media screen and (max-width: 900px) {
+  .button-detail-mobile {
+    display: flex;
+  }
   header {
     position: fixed header relative;
   }
@@ -2543,7 +2633,7 @@ footer .content .footer-galerie .image-container .row img:hover {
     gap: 10px;
   }
   header .header-container .nav-mobile a {
-    color: #000;
+    color: #1F3149;
   }
   main {
     padding-top: 100px;
@@ -2686,8 +2776,12 @@ footer .content .footer-galerie .image-container .row img:hover {
   .six-section-home .price-details {
     flex-direction: column;
   }
+  .six-section-home .price-details .detail-container {
+    flex-direction: column;
+  }
   .six-section-home .price-details .detail-container .detail {
     justify-content: normal !important;
+    display: none !important;
   }
   .six-section-home .price-details .container-details-price {
     width: auto !important;
