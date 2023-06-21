@@ -18,10 +18,12 @@
 
   .contain-blog {
     display: flex;
-    justify-content: space-around;
-    width: 80%;
+    justify-content: space-between;
+    width: 90%;
     margin: auto;
     margin-top: 40px;
+    flex-wrap: wrap;
+    
 
     .blog-container-details {
       position: relative;

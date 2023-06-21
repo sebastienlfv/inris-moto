@@ -390,6 +390,54 @@ main {
     }
   }
 
+  .section-encard-inris {
+    .fade-title {
+      background: linear-gradient(90deg, rgba(40,27,89,1) 0%, rgba(193,0,88,1) 100%);
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      font-family: 'Lexend';
+      font-size: 20px;
+    }
+
+    .detail-encard {
+      display: flex;
+      width: 80%;
+      margin: auto;
+      padding: 40px 0;
+      justify-content: space-between;
+      align-items: center;
+
+
+      div:nth-child(2) {
+        img {
+          width: 220px;
+        }
+      }
+
+      div {
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        align-items: center;    
+        
+        img {
+          width: 250px;
+          margin-left: 60px;
+        }
+
+        p {
+          font-size: 18px;
+          font-weight: bold;
+          font-family: 'Lexend';
+          margin-top: 20px;
+          text-align: center;
+          height: 15px;
+        }     
+      }
+    }
+  }
+
   .three-section-home {
     background-image: url('/client/src/img/motard-route.png');
 
@@ -827,13 +875,10 @@ main {
       display: flex;
       justify-content: space-between;
 
-<<<<<<< HEAD
       .stage-a2-3j-accel {
         background-image: url("/client/src/img/stages/stage-moto-a2-3j.jpg");
       }
 
-=======
->>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
       .stage-a2 {
         background-image: url('/client/src/img/stages/a2_vers_a.jpg');
       }
@@ -944,7 +989,6 @@ main {
       }
     }
   }
-<<<<<<< HEAD
 
   .seven-section-home {
     padding-top: 50px;
@@ -988,6 +1032,55 @@ main {
     font-family: 'Lexend';
     padding-top: 50px;
 
+    .section-avis-inris {
+      display: flex;
+      padding: 20px;
+      justify-content: space-between;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 90%;
+
+      .detail-avis {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 450px;
+        background-color: #e2e2e2;
+        padding: 20px;
+        border-radius: 20px;
+
+        .author-text.hide-text::after {
+          content: "Voir plus...";
+          color: blue;
+          cursor: pointer;
+        }
+        
+        .author-text.hide-text {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+
+        img {
+          width: 60px;
+          margin-bottom: 20px
+        }
+
+        div {
+
+
+          p {
+            font-size: 14px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+
+    h2 {
+      text-align: center;
+    }
+
     .separator-temoignage {
       background-color: #00e5ac;
       width: 200px;
@@ -1029,8 +1122,6 @@ main {
       }
     }
   }
-=======
->>>>>>> ca61bd9f11bf5807c3f055c8d59cd0b13109f7d2
 }
 
 footer {
