@@ -1043,15 +1043,28 @@ main {
       .detail-avis {
         display: flex;
         align-items: center;
-        flex-direction: column;
         width: 450px;
         background-color: #e2e2e2;
         padding: 20px;
         border-radius: 20px;
+        gap: 20px;
+
+        .author-rating {
+          display: flex;
+          gap: 10px;
+        } 
+
+        .author-rating img {
+          width: 20px !important;
+        }
+
+        .see-more-link {
+          color: #c2075d !important;
+          cursor: pointer;
+        }
 
         .author-text.hide-text::after {
           content: "Voir plus...";
-          color: blue;
           cursor: pointer;
         }
         

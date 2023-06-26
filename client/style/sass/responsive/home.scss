@@ -1,6 +1,17 @@
 @media screen and (max-width: 900px) {
 
 
+  .temoignage-section {
+    .section-avis-inris {
+      flex-direction: column;
+      gap: 20px;
+
+      .detail-avis {
+        width: auto !important;
+      }
+    }
+  }
+
 
   .button-detail-mobile {
 
